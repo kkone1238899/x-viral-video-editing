@@ -270,7 +270,7 @@
 
 **怎么用它搞钱**：批量竖屏化代工——长视频批量转 Shorts，按条收费。
 
-**来源**：[@byCanen 转述帖](https://x.com/byCanen/status/2110373181882011964)（2026-10-14 22:12，引用链 @KowalPrato4o 实测整理） · GitHub 项目 [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · ⭐1944 · 更新于 2026-10-14
+**来源**：[@byCanen 转述帖](https://x.com/byCanen/status/2110373181882011964)（2026-10-14 22:12，引用链 @KowalPrato4o 实测整理） · GitHub 项目 [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · ⭐3125 · MIT · 最近推送 2026-10-28（2026-10-28 经 GitHub API 刷新；本档 @dngzsn37461 同项目推荐帖去重，不另立条目）
 
 ### @msjiaozhu：用 Codex 剪视频——剪映两天的活，动嘴不到一小时
 
@@ -486,6 +486,32 @@
 
 **来源**：[@aimagicomj 原帖](https://x.com/aimagicomj/status/2115309101412671924)（2026-10-28 13:06，经 fxtwitter API 核验；为作者 MV 串文的方法回复）
 
+### Opus 代码视频 7 步：先分镜再渲染，让 AI 自检最严重的 3 个问题
+
+**核心提炼**
+- 解决什么问题：只给一句提示词就想出电影级视频，得到的往往是千篇一律的渐变背景加淡入淡出——真正厉害的不是那句提示词，而是一套可反复走的制作流程。解法是把视频当成代码工程：写代码、逐帧渲染、检查、再渲染，最后把流程封成 Skill。
+- 核心用法（7 步，作者串文提炼）：1) 认清原理：Opus 写动画代码，浏览器逐帧渲染，最后用 ffmpeg 合成 MP4；15 秒、60 帧的视频要生成 900 帧，逐帧可控是代码路线相对视频模型抽卡的核心优势 → 2) 配齐工具链：Claude Code 负责编写、运行与修改代码，Playwright 负责自动控制浏览器并捕获画面，ffmpeg 负责合成视频与音频，Remotion 或 HyperFrames 为可选动画框架；关键一条是让 AI 不只会写代码，还能看到自己做出来的效果 → 3) 提示词要给参考：不要只给一句模糊要求，否则只会得到通用模板；更好是直接提供参考视频，让 AI 先拆解配色、字体、镜头节奏与转场方式，再明确主题、时长、分镜与素材，成片才可控 → 4) 先设计分镜再做动画：作者 16 秒示例按作用分段——开头 2 秒抓注意力、接着 3 秒讲问题、再 4 秒展示产品、再 4 秒证明效果、最后 3 秒收尾；每个镜头都要有作用，而不是单纯堆特效 → 5) 廉价感差在细节：好的动画要模拟真实运动的加速、减速与回弹，而不是从 A 点直线移到 B 点；转场、点击与关键动作还要配上音效，让画面与声音保持同一个节奏 → 6) 最关键是自检：不要第一版就发布；更成熟的流程是让 AI 自动提取关键帧检查画面、检查文字是否清晰、找出最严重的 3 个问题、修改后重新渲染；优秀作品往往经过多轮打磨 → 7) 把流程封成 Skill：把视觉风格、分镜规则、渲染代码与检查流程保存下来，之后做新视频只需按预设格式调用（如作者示例的 `/motion-reel for [URL], 20s, vertical` 式调用），不必每次从零开始。
+- 什么时候用 / 常见坑：与本库早档「Opus 代码动画 6 步」同源，但本条新增价值在分镜时间分配、运动与音效同节奏的细节标准、自检「最严重 3 问题」循环与 Skill 封装调用，独立计入；本条串文步骤由浏览器任务在 X 站内逐段核验后带回，首帖之外的分段未再经 fxtwitter API 单独复核；作者结论「值得学的是流程而非提示词」为方法主张，渲染帧数与工具链为作者自述流程，未独立实测。
+
+**适用场景**：用 Claude Code 做讲解、产品、音乐类动画短片，想摆脱视频模型抽卡、要可复现可修改成片的创作者。
+
+**怎么用它搞钱**：接讲解片、产品片代制作——「分镜先行＋自检循环＋Skill 复用」是一套可报价的流程，按改几轮报价；或把封好的 Skill 做成模板包。
+
+**来源**：[@Crypto_QianXun 首帖](https://x.com/Crypto_QianXun/status/2115326451100840233)（2026-10-28 14:15；串文 7 步由浏览器任务在 X 站内逐段核验带回）
+
+### 3 个免费 MIT 剪辑技能：检索剪切、模板复用、口播精剪各取一个
+
+**核心提炼**
+- 解决什么问题：每个客户 Reel 都要打开 Premiere 从头剪，重复劳动占了大头——作者的解法是按分工各取一个免费技能，让 Claude Code（与 Codex）先把枯燥部分做掉，人只留品味与客户沟通。
+- 3 个技能：1) VideoDB skills：粘贴 YouTube 链接，用日常英语提问定位、裁切、转竖屏与烧录字幕；安装 `npx skills add video-db/skills`，或接 MCP（`claude mcp add --transport http videodb https://mcp.videodb.io/mcp`）；作者称免费账号带 20 美元额度、无需银行卡——额度与计费以当时官方页面为准 → 2) vvv：先搭建一次视频模板，每位新客户复用，换照片、姓名与文案即可，Agent 先渲染并检查样片再交；安装 `npx skills add actionow-ai/vvv`；作者认为最适合婚礼、生日与店铺促销类 9:16 短片 → 3) ghost-editor：口播原片进、成片 Reel 出，剪掉停顿与错误开头，逐词对齐的字幕且避开人脸，加 B-roll 与音乐，渲染前先给逐帧审批页确认；工具本身免费，但作者注明需要付费 Claude 计划与 Apple Silicon Mac，Codex 未测试——部署前按自己环境实测。
+- 什么时候用 / 常见坑：三仓均为 MIT，星数与推送时间均为 2026-10-28 经 GitHub API 核验（见来源行）；VideoDB 走服务端工作流，素材与额度涉及云端处理，与本条 ghost-editor、vvv 的本地路线不同，选型前先确认客户素材能否上云；作者的「按月卖短片包」为变现建议，非收入承诺。
+
+**适用场景**：接客户 Reel、口播精剪、活动与店铺短片代工，想用 Agent 先把检索、模板、精剪三段固定下来的个人创作者与小团队。
+
+**怎么用它搞钱**：按作者建议，一个技能 × 一个细分领域（教练、本地店铺、活动摄影师），按月卖剪辑短片包；Agent 负责剪切，人负责品味与客户沟通。
+
+**来源**：[@Manojkumar2257 原帖](https://x.com/Manojkumar2257/status/2115332060776939927)（2026-10-28 14:37，经 fxtwitter API 核验）· 仓库 [video-db/skills](https://github.com/video-db/skills) ⭐139 · MIT · 最近推送 2026-10-27、[actionow-ai/vvv](https://github.com/actionow-ai/vvv) ⭐423 · MIT · 最近推送 2026-10-25、[kurbaitaev/ghost-editor](https://github.com/kurbaitaev/ghost-editor) ⭐81 · MIT · 最近推送 2026-10-14（星数与推送时间均为当日 GitHub API 核验）
+
 ## 收录标准
 
 - 来源：X 博主实战分享（原帖 / 评论区 / 引用链）及 GitHub 高星项目
@@ -519,5 +545,6 @@
 - 2026-10-15：晚档新增 1 条（X：@msjiaozhu Codex+ChatCut 口播剪辑工作流——四条指令+五道验收，附开源 Skill 仓库）
 - 2026-10-28：早档新增 9 条（X 7 条：Creator Buddy 9 模块口播分工 / Buzz 本地转写 + Kdenlive 烧录字幕 / Story Studio Audio-First 流水线 + @superfang119 本地复测并入同条 / 配音即时钟逐词卡点 / 代码即影片 TypeScript 故事板 / CapCut × ChatGPT/Codex 三轮试跑法 / Opus 代码动画 6 步 + 4 行验货命令；GitHub 2 个项目：YouTube AI Video Editing System / LiveEdit；Star 均经 GitHub API 核验；4 条 X 帖正文与时间戳经 fxtwitter API 核验）
 - 2026-10-28：午档新增 5 条（X：Grok Bot 口播剪辑 8 步调教 + 5 步日常 / Claude Code Remotion 5 步 + 开源栈 / Alex Cooper 代理剪辑 11 条（原帖 10-27，经 @krpisoweb3 引用与 @wangcha58403845 摘要发现后按原帖全文补录，二手摘要不单独计条） / 字幕 5 工具按任务选型 / Grok Bot 一台电脑做 MV 4 步；@Manojkumar2257 claude-remotion-skill 推荐帖与库内老条目去重，仅刷新其星数 434→682；X 帖正文与时间戳经 fxtwitter API 核验，字幕 5 仓与 claude-remotion-skill 星数经 GitHub API 核验）
+- 2026-10-28：午档补录 2 条（浏览器迟到收尾报告：@Crypto_QianXun Opus 代码视频 7 步串文全文——原理＋工具链＋参考拆解＋16 秒分镜分段＋动效音效同节奏＋自检最严重 3 问题＋Skill 封装调用，与早档 Opus 6 步同源但新增分镜与自检标准，独立计入；@Manojkumar2257 3 个免费 MIT 技能——VideoDB 检索剪切／vvv 模板复用／ghost-editor 口播精剪＋逐帧审批，星数当日 GitHub API 核验；@dngzsn37461 ffmpeg-skill 推荐帖与库内 kajisho5/ffmpeg-skill 老条目去重，仅刷新其星数 1944→3125；浏览器报告另把 @Haosen9527 字幕帖列为边界，本档仍按已发布口径计入——该帖 12:09 在早档之后，且长文给出每工具路线与选型硬规则，符合价值铁律，不撤回）
 - 2026-10-15：早档新增 14 条（X 5 条：AI 短剧挑片流程 / 口播 AI 剪辑涨粉账 / 图生视频多段拼接 / Opus 动态设计 15 repos / ffmpeg-skill；GitHub 9 个项目：claude-remotion-skill / akari-video / ai-video-editing-skill / AIEV / oh-my-cassette / OpenCut / cutcraft / open-edits / favstash-ai-video-editing-skills），Star 全部经 GitHub API 核验
 - 2026-10-11：首版，2 个项目，持续收录中
