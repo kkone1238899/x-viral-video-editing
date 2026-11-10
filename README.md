@@ -47,7 +47,7 @@
 
 **怎么用它搞钱**：接短视频代运营/批量带货视频单——一次建好 Skill，多客户复用。
 
-**来源**：[FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) · ⭐3479 · 更新于 2026-07-31
+**来源**：[FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) · ⭐3659 · 更新于 2026-07-31
 
 ### X-Cut
 
@@ -86,7 +86,7 @@
 
 **怎么用它搞钱**：知识付费账号的视觉代工（同风格批量套剪），或把调好的 skill 卖给同行。
 
-**来源**：[haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) · ⭐682 · MIT · 最近推送 2026-08-12（2026-10-28 经 GitHub API 刷新；本档 @Manojkumar2257 同项目推荐帖去重，不另立条目）
+**来源**：[haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) · ⭐908 · MIT · 最近推送 2026-08-12（2026-10-28 经 GitHub API 刷新；本档 @Manojkumar2257 同项目推荐帖去重，不另立条目）
 
 ### akari-video
 
@@ -99,7 +99,7 @@
 
 **怎么用它搞钱**：短视频代运营的"剪辑外包"——接素材量大的客户，用 agent 批量消化。
 
-**来源**：[AkariLabs/akari-video](https://github.com/AkariLabs/akari-video) · ⭐209 · 更新于 2026-10-14
+**来源**：[AkariLabs/akari-video](https://github.com/AkariLabs/akari-video) · ⭐213 · 更新于 2026-10-14
 
 ### ai-video-editing-skill（Vlog Auto Edit）
 
@@ -112,7 +112,7 @@
 
 **怎么用它搞钱**：旅行博主 / 本地探店账号的剪辑代工，按条收费。
 
-**来源**：[znyupup/ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill) · ⭐154 · 更新于 2026-10-12
+**来源**：[znyupup/ai-video-editing-skill](https://github.com/znyupup/ai-video-editing-skill) · ⭐178 · 更新于 2026-10-12
 
 ### AIEV
 
@@ -125,7 +125,7 @@
 
 **怎么用它搞钱**：品牌宣传片 / 课程片的剪辑外包——品牌 kit 一次调好，多客户复用。
 
-**来源**：[notivn/AIEV](https://github.com/notivn/AIEV) · ⭐135 · 更新于 2026-10-14
+**来源**：[notivn/AIEV](https://github.com/notivn/AIEV) · ⭐156 · 更新于 2026-10-14
 
 ### oh-my-cassette
 
@@ -138,7 +138,7 @@
 
 **怎么用它搞钱**：接"素材→成片"代剪辑单，或给团队搭剪辑 MCP 收服务费。
 
-**来源**：[Cassette-Editor/oh-my-cassette](https://github.com/Cassette-Editor/oh-my-cassette) · ⭐120 · 更新于 2026-10-12
+**来源**：[Cassette-Editor/oh-my-cassette](https://github.com/Cassette-Editor/oh-my-cassette) · ⭐216 · 更新于 2026-10-12
 
 ### OpenCut（Premiere Pro 版）
 
@@ -151,7 +151,7 @@
 
 **怎么用它搞钱**：口播博主的"粗剪外包"——接长素材，自动化粗剪 + 人工精修两段收费。
 
-**来源**：[SysAdminDoc/OpenCut](https://github.com/SysAdminDoc/OpenCut) · ⭐62 · 更新于 2026-10-14
+**来源**：[SysAdminDoc/OpenCut](https://github.com/SysAdminDoc/OpenCut) · ⭐66 · 更新于 2026-10-14
 
 ### cutcraft
 
@@ -164,7 +164,7 @@
 
 **怎么用它搞钱**：短视频代运营——同一工作流批量套不同客户素材。
 
-**来源**：[chang416/cutcraft](https://github.com/chang416/cutcraft) · ⭐52 · 更新于 2026-09-17
+**来源**：[chang416/cutcraft](https://github.com/chang416/cutcraft) · ⭐53 · 更新于 2026-09-17
 
 ### open-edits
 
@@ -177,7 +177,7 @@
 
 **怎么用它搞钱**：口播账号的"剪辑升级"服务——同一个人设，多风格动画套剪。
 
-**来源**：[kevinbadi/open-edits](https://github.com/kevinbadi/open-edits) · ⭐41 · 更新于 2026-10-14
+**来源**：[kevinbadi/open-edits](https://github.com/kevinbadi/open-edits) · ⭐61 · 更新于 2026-10-14
 
 ### favstash-ai-video-editing-skills
 
@@ -190,7 +190,7 @@
 
 **怎么用它搞钱**：短视频矩阵代运营——一套 agent 流程管多个账号。
 
-**来源**：[alisadiq-ai/favstash-ai-video-editing-skills](https://github.com/alisadiq-ai/favstash-ai-video-editing-skills) · ⭐24 · 更新于 2026-10-14
+**来源**：[alisadiq-ai/favstash-ai-video-editing-skills](https://github.com/alisadiq-ai/favstash-ai-video-editing-skills) · ⭐62 · 更新于 2026-10-14
 
 ### @zhu185178：Opus 5.5 当导演跑通 AI 短剧（挑片与可追溯流程）
 
@@ -401,7 +401,7 @@
 
 **怎么用它搞钱**：接 YouTube 口播代剪辑/频道代运营——同一套工作流换客户复用；或把"提词器 + 候选剪辑 + 编辑交接"做成剪辑服务包。
 
-**来源**：[sirioberati/YouTube-AI-Video-Editing-System](https://github.com/sirioberati/YouTube-AI-Video-Editing-System) · ⭐73 · MIT · 最近推送 2026-10-21（GitHub API 核验）
+**来源**：[sirioberati/YouTube-AI-Video-Editing-System](https://github.com/sirioberati/YouTube-AI-Video-Editing-System) · ⭐132 · MIT · 最近推送 2026-10-21（GitHub API 核验）
 
 ### LiveEdit：Gemini 驱动的全栈 AI 视频编辑应用
 
@@ -612,6 +612,350 @@
 
 **来源**：[@Pluvio9yte 原帖](https://x.com/Pluvio9yte/status/2115420020973199431)（2026-10-28 20:26，经 fxtwitter API 核验，长文全文经 API 直读）· 仓库 [Pluviobyte/awesome-talking-head-skills](https://github.com/Pluviobyte/awesome-talking-head-skills) · ⭐0（新仓）· MIT · 最近推送 2026-10-27（GitHub API 核验）
 
+### Claude Code 剪口播十步：从原片到成片的全流程（@Jasper_Jia543）
+
+**核心提炼**
+- 解决什么问题：口播原片交给 AI 剪，工具好装、但停顿剪多少、字幕怎么改、什么时候上图解、动效怎么做才不像 AI 做的，这些判断才是难点——作者用 4 条 5 分钟知识口播、十几轮修改沉淀成一套可反复调用的流程，10 万+播放、涨粉过千（作者自述）。
+- 核心用法（10 步）：1) 先定对标把"好"变成数字：挑同类账号最新两三条，用无头浏览器每秒截 5 张图并实时测音频，量出换画面频率、真人回全屏间隔、字幕样式、音效密度（对标"小Lin说"实测：讲解段平均 0.7 秒一次画面变化、8–15 秒回全屏 2–6 秒、50 秒一两个音效）；2) 粗剪：Whisper 逐字转录 + ffmpeg 测静音段，0.4 秒以下停顿不剪（换气），句中留 0.26–0.32 秒、整句留 0.34–0.42 秒，省不到 0.15 秒不剪，末句留 1 秒；口误看音量曲线（中间低于 -40 dB 是停顿），切点只在前后 0.1 秒内找最安静处，按整帧裁剪防声画漂移；3) 字幕忠于原话：只改错字、专有名词、明显口误漏字，不确定的 5–10 秒重识别，改动列原文/改后/理由表，白色单行中等偏粗、柔和阴影不描边，断行落词边界；4) 查证：口播里每个数字都搜出处，查不到的不放大不编（《自然》论文"收入提高 20%"是地区相关性估算、非因果，卡片不能写成因果）；5) 结构与版式：三状态（全屏口播/全屏图解+圆形小头像/无人画面），不上下分屏，圆形头像要完整头和头发，卡片不挡嘴和下巴、左右留 80 像素，8–15 秒回全屏、最长不超 15 秒，开头快中段稳结尾加速，先做"内容地图"（每句话标作用再定画面），另写节奏自检脚本查超 8 秒无变化的死区；6) 素材真实有授权对得上：Mixkit 注意 Free/Restricted 两种许可，Wikimedia 只收公有领域/CC0/CC BY/CC BY-SA，新闻论文用原文截图+OCR 定位高亮，同一段素材全片只出现一次，绝不用 AI 生成新闻/现场画面；7) 设计与动效：频道外观统一但不僵化，AI 味黑名单（激光条、扫描线、取景框、REC 计时、故障闪切、简单几何线条、扁平色块），参照数码产品/苹果广告（毛玻璃卡片、金属感字、柔和分层阴影），动效弹簧缓动带一点点过冲，关键词说到那一刻才光扫+下划线，另附踩坑对照表（金字发灰关 text-shadow 改 drop-shadow、金底金字改深色小块配浅色字等）；8) 声音以音乐为主、音效要少：配乐全程铺着、比人声低 8–10 LU，人声时自动让位，选曲先下载三四首测响度起伏/能量曲线/低频，明显音效每分钟几个且落在真实动作上，成片 -16 到 -14 LUFS、峰值不超 -1 dB，选曲听感必须自己戴耳机听一遍；9) 渲染前自检：24 条必过项 + 100 分评分表，必过全过且 85 分以上才允许渲染，三层检查（节奏自检脚本/渲染工具自带检查/逐张截图拼总表放大看），另开一个 agent 来审（主 agent 会脑补）；10) 渲染和交付：测响度峰值、抽 8 帧拼图确认与预览一致，交付说明含成片路径/时长/响度、每处修改及原因、剪辑结构、事实核对与来源、素材授权清单、字幕改动、没做到的地方及需亲自确认处，文件名带版本号、旧版全保留。
+- 工具层：Claude Code 当总监（读转录、修字幕、查证、排结构、找素材、写剪辑方案和动效代码、截帧自检），mlx-whisper 本地逐字转录，ffmpeg 处理声音切点响度，HyperFrames/Remotion 写画面渲染成片；核心原则是把错误挡在渲染之前（方案里发现的错不留到截图，截图发现的错不留到渲染），AI 看不到动态听不到声音、没看过听过的要明说。
+- 规则沉淀：每条意见做三件事——记进要求文档（哪个画面、为什么不行）、找根本原因改通用代码样式、变成必过项或自动检查（"上下分屏视觉重心不好"提过一次，之后所有片子都不再分屏）。
+- 什么时候用 / 常见坑：知识类口播最对味；渲染一次约 20 分钟，检查前置才省时间；全文提示词在原文中，照抄前先按自己对标账号改数字。
+
+**适用场景**：做知识类口播、想用 Claude Code 把剪辑变成可复用流程的创作者。
+
+**怎么用它搞钱**：接知识口播代剪辑——"对标量化 + 渲染前自检 + 交付说明"是一套可报价的流程，按条收费；或把这套流程做成口播剪辑课。
+
+**来源**：[@Jasper_Jia543 原帖](https://x.com/Jasper_Jia543/status/2118590299618549997)（2026-11-06 14:24，经 fxtwitter API 核验，长文全文经 API 直读；浏览器报告所列"十步"与原文结构不符，本条以 API 原文十步为准；灵感来源 @EianLu 11-05 长文）
+
+### 8 个免费工具搭 Claude 视频栈（@ellypromtstar）
+
+**核心提炼**
+- 解决什么问题：Claude 会写动效，但不会剪片、配字幕、配音、配乐和质检——作者把 8 个免费工具锁成一条"Claude 写、工具链执行"的流水线，每件工具都附"哪里会坏 + 怎么查"。
+- 核心用法（8 件 + 梯子）：1) Remotion：Claude 写 React 组合，本地渲染成帧，坏在 Claude 会编不存在的 API，查法是渲染前跑 `npx remotion compositions` 看 id 在不在；2) Whisper：逐词时间戳做烧录字幕（本地或免费 CLI），坏在静音/音乐段幻觉出词，查法是边听边对 JSON、没声音的词先删；3) Kokoro/本地 TTS：旁白免费离线，坏在数字、网址、品牌名被赶着念过去，查法是脚本里把品牌按读音拼写、"100M+"只在口播时展开；4) Freesound CC0：配乐音效零授权费，坏在下成 CC-BY 忘了署名或错拿非 CC0，查法是导出前重开下载页核对许可行；5) three.js：浏览器里单 HTML 文件做产品旋转/粒子/Logo 动画、不用安装，坏在 Claude 编一个不存在的 GLB 链接导致黑屏，查法是开 DevTools 看 Network、有 404 就先换程序化几何体；6) 开源 Claude skills：短 Markdown playbook、每次加载，坏在写成长篇小说 Claude 只执行一半，查法是 kept under ~40 行、两周没触发的规则就删；7) ffmpeg 切片表：Claude 不擅长 timeline GUI、擅长写 cut list，静音删除、重构、拼接、烧 ASS 全免费，坏在时间戳四舍五入切到词中间，查法是把切点贴回带帧显示的播放器、打到音素就前后挪 ±3 帧；8) Playwright QA：打开 Remotion Studio/three.js 页/渲染预览截图，坏在只查"页面加载了"不查"动效看得见"，查法是对内容断言、不对状态码断言（五张黑帧也算失败）。
+- 梯子顺序：skill 定规则 → Claude 出草稿（Remotion/three.js）→ Kokoro 配音 → Whisper 字幕 → Freesound 配乐音效 → ffmpeg 切/缩放/烧录 → Playwright 截图 QA → 发布；缺哪一环就跳过哪一环，但 QA 永不跳过；开工前提示词清单：定格式（Remotion/three.js/ffmpeg 三选一）、尺寸 1080×1920、时长、首帧即 payoff、品牌色、首帧上钩子文案、不编没给过的数字、不用付费 API/图库链接/假素材路径、结尾写"哪里会坏 + 怎么查"。
+- 什么时候用 / 常见坑："10 个账号一周 1 亿+播放"为作者自述、未独立核验；每件工具的"坏点"都是作者实测踩过的，比工具清单本身更值钱；附带的粘贴即用提示词在原文中，照抄前先改品牌色与尺寸。
+
+**适用场景**：用 Claude Code 做竖屏短视频、想把"写动效→成片→质检"串成免费工具链的创作者。
+
+**怎么用它搞钱**：接"Claude 视频栈搭建 + 批量出片"单——先帮客户把 8 件工具与 QA 梯子跑通，再按条收代剪费。
+
+**来源**：[@ellypromtstar 原帖](https://x.com/ellypromtstar/status/2118587242876665882)（2026-11-06 14:12，经 fxtwitter API 核验，长文全文经 API 直读；浏览器报告所列 8 工具（Claude Code/Nano Banana Pro/Higgsfield/CapCut）与原文不符，本条以 API 原文为准）
+
+### 说一个词，Claude 就剪掉失误（@Casanova_Brooks）
+
+**核心提炼**
+- 解决什么问题：录口播说错就得重录整段，剪一条 YouTube 视频要占掉整个周六——作者让 Claude 按自己写下的规则剪片，23 分 39 秒原片出 18 分钟成片，83 刀全由 Claude 选。
+- 核心用法：1) 录制时说错只说一个词"edit"继续录，Claude 听到后自动定位并切掉该段；录制时在手机拍一张白板、写下不想要的内容，Claude 读图理解；2) 剪辑规则写死：删口头禅（um/uh）、半途而废的句子、重录的句子、开场白与清嗓子；绝不删重复（防断句）；钩子规则——视频永远以标题承诺开场，第一句没说承诺就把后面说承诺的那句移到最前面；3) 流程：原片丢进 Google Drive 文件夹，Agent 每分钟检查一次，新片来了就开云电脑干活（转录、剪辑表发到手机）；剪辑表列每一刀的起止与原因，末尾附剪完的干净 transcript（可复用做音频或博客）；每版顺序编号、原片与成片都保留；4) 手机改片：预览发到 Telegram（带剪辑表与改动说明），回复一句"change that"就改，改完出新版（v1 误删了一句想保留的话，v2 加回来；40 秒处开场太 abrupt，加了一个 fade to black）；改完批准，成片进 YouTube Drive、一键上传。
+- 什么时候用 / 常见坑：作者自述 83 刀、23:39→18:00 均为原文数据；规则要先写下来再交给 AI（"告诉它打扫办公室"不如给一张"垃圾倒掉、桌子擦了、桌上文件别动"的清单）；剪辑表只写切点、不直接动视频，动手剪仍需自己或 AI 执行；作者另有人类剪辑师，AI 负责批量粗剪、不替代终剪。
+
+**适用场景**：录长口播/YouTube 视频、想把"说错重录"和"粗剪"交给规则的创作者。
+
+**怎么用它搞钱**：接"口播粗剪 + 剪辑表交付"单——按"edit 口令 + 规则表 + 手机改片"打包，按条收费；或把这套规则表做成剪辑课的模板。
+
+**来源**：[@Casanova_Brooks 原帖](https://x.com/Casanova_Brooks/status/2119943310051528889)（2026-11-10 08:00，经 fxtwitter API 核验，长文全文经 API 直读；浏览器报告"22 分 22 秒"与原文 23:39 不符，本条以 API 原文为准）
+
+### 1 分钟 UGC 广告的 5–6 小时花在哪（@simulart，引用 @spwfeijen）
+
+**核心提炼**
+- 解决什么问题："$2 一条 clip"是真的，但不是一条广告的成本——作者剪 Seedance 做的 Everyday Dose 口播 UGC，生成是最快的一环，1 分钟广告仍要 5–6 小时，时间花在四处。
+- 核心用法（4 项）：1) Takes：同一句多版生成，挑呼吸和眼神落点对的那一版；2) Tells：逐帧检查牙齿、手、标签漂移，绕着问题剪、不整段重拍；3) Rhythm：真人说话会停顿、重启、看向别处，这些节拍要故意剪进来，否则像提词器；4) Hooks：每条广告出 3 个不同开头、共用同一个正文，测的是钩子、不是脸。
+- 结论：两张参考图就能做出一张会说话的脸，但把人带到产品镜头前的是剪辑；省时、省力、省钱三者只能占其二。
+- 什么时候用 / 常见坑：原帖 @spwfeijen 11-08 "$2 一条 15 秒视频"（Seedance 2.5 + GPT-2.5、两张参考图）为引用来源；本条增量是四项耗时拆解；浏览器报告所列 6 项（含"1.5–2 秒切一次""声音分层"）在原文中不存在，本条以 API 原文四项为准。
+
+**适用场景**：做 AI 生成口播 UGC 广告、想算清"生成便宜、剪辑贵"这笔账的创作者与广告主。
+
+**怎么用它搞钱**：接 UGC 广告代制作——按"多版挑 take + 逐帧修 tells + 3 开头测钩子"报价，不按生成成本报价；或把这张耗时拆解做成给客户的报价依据。
+
+**来源**：[@simulart 原帖](https://x.com/simulart/status/2119855774788665466)（2026-11-10 02:12，经 fxtwitter API 核验；引用 @spwfeijen 11-08 原帖）
+
+### X 原生 Clip：5–60 秒切片 + Grok Bot 找高光 + 变现（@Lin003525 + @oragnes + @notkvtwts，三帖合并）
+
+**核心提炼**
+- 解决什么问题：想剪别人长视频里的高光，以前要下载、再用别的软件剪、再传回去，还常不标注原作者——X 刚上原生 Clip 功能，App 里直接剪、自动署名、双方都能分收益。
+- 核心用法（功能）：找到超过 2 分钟的视频 → 点转发 → 点"Clip video" → 拖动选 5–60 秒片段 → 写上自己的评论 → 直接发；剪出的帖子自动带"Clip from"跳回原视频与原作者；双方开通 Original Content Rewards 都能拿观看收益；目前只支持 iOS 和安卓 App，网页版还没上，直播暂时不能剪。
+- 变现四步（@oragnes）：1) 找 X 上流量最大的播客和访谈，重点盯商业、科技、AI、创业；2) 用 Grok Bot 监控新节目，自动筛选争议观点、精彩辩论、爆炸数据和有趣片段；3) 人工挑选 20–60 秒高价值内容，配上自己的评论和观点；4) 用 X 原生 Clip 发布，原作者获得流量回流、自己参与收益分成。
+- 测试八步（@notkvtwts，副业测算）：1) 选一个细分领域（AI 工具、电商、金融、开发者工具，选自己看得懂好片段的）；2) 建一个 Grok Bot 找该领域已在发切片/评论/拆解的账号（收 profile 与联系方式、近期内容、播放与互动、受众反响话题）；3) 再建一个 Grok Bot 找素材（新播客、upcoming 访谈、仍相关的旧对话，从 transcript 里拉高光时刻）；4) 找播客主谈小 campaign（谈好授权、预算、每千次播放价格，先定好哪些播放算数、花多少钱封顶）；5) 建一个简单 campaign 页（通过的视频与时间戳、目标受众、切片与文案规范、payout 与预算、投稿链接入口）；6) 算经济账（示例价：客户付 $20/千次有效播放，剪辑者拿 $12；10 万次有效播放 = 客户付 $2,000、剪辑者拿 $1,200、剩 $800 覆盖剪辑/工具/手续费与时间——示例价，实际按三方谈）；7) 给剪辑者足够上下文（每条切片要角度、文案、打动该受众的理由；与客户一起审、保留原作者署名、付费合作要标明）；8) 把第一个 campaign 做成案例（哪条切片有效、触达了谁、每千次成本、能归因的点击/线索），拿去谈下一期或包月。
+- 什么时候用 / 常见坑："每月 $5,000+"与示例价格均为作者测算、未核验；Grok Bot 找高光与找剪辑者网络是作者的测试方案、非现成产品；Clip 功能刚上线，收益分成以官方页面为准。
+
+**适用场景**：做播客/访谈切片、想用 X 原生功能零成本起切片账号的创作者。
+
+**怎么用它搞钱**：按 @notkvtwts 的八步跑"播客切片分发"副业——帮企业把播客推给潜在客户，按有效播放分成；或直接做切片账号吃双方收益分成。
+
+**来源**：[@Lin003525 原帖](https://x.com/Lin003525/status/2119953290578571560)（2026-11-10 08:40）+ [@oragnes 原帖](https://x.com/oragnes/status/2119956772207440377)（2026-11-10 08:54）+ [@notkvtwts 原帖](https://x.com/notkvtwts/status/2119913916725895232)（2026-11-10 06:03），三帖正文与时间戳均经 fxtwitter API 核验；三帖同为 X Clipping 功能，功能、变现四步、测试八步各有增量，合并计 1 条
+
+### Voxtral 3 context biasing：转写前先喂专有名词（@XKhan_Liu，引用 @MistralAI）
+
+**核心提炼**
+- 解决什么问题：做字幕、转写时型号、品牌名、术语老被转错——Mistral Voxtral 3 Transcribe 的 context biasing：转写时传一个 context_bias 列表（关键词，或一段"这段录音讲啥、谁在说"的描述），模型听到类似发音时优先选列表里的词，不用微调。
+- 核心用法：1) 先把人名、公司名、产品名与专业术语整理成列表，传给模型；2) 官方文档建议每个必须写对的词单独列一条；3) 适用：名字多的会议演讲、专业术语多的采访、带字幕的视频；五金、3D 打印、AI 内容这类型号品牌术语多的场景最对症。
+- 价格与局限（作者核查，官方说法）：Mini $0.0035/分钟、Small $0.004/分钟、实时版 $0.008/分钟；官方称支持 50+ 语言、中文在离线转写测试集里，可走 API、官方称也能自部署；局限：模型卡目前仍标 Public Preview；关键词和音频共用上下文窗口，录音越长能塞的词越少、超了直接报 400；实时版测试语言列表里没看到中文；"超过 Whisper/Gemini"为官方自测，中文效果要自己跑一遍。
+- 什么时候用 / 常见坑：价格与语言支持均为作者转述官方说法，未独立核验；中文实时转写效果未验证，先跑一小段再决定。
+
+**适用场景**：做会议、采访、带货视频字幕，被专有名词转错困扰的创作者。
+
+**怎么用它搞钱**：接"会议/采访转写 + 字幕"单——用 context biasing 把专有名词一次转对，按分钟或按条收费。
+
+**来源**：[@XKhan_Liu 原帖](https://x.com/XKhan_Liu/status/2119777893631000908)（2026-11-09 21:03，经 fxtwitter API 核验；引用 @MistralAI 11-09 原帖）
+
+### OpusClip 4.0 Recipe：一次录制，横竖双版（@0x_fokki）
+
+**核心提炼**
+- 解决什么问题：每条视频发两个地方，LinkedIn 要横屏干净字幕、Reels 要竖屏动效文字，每条都得剪两遍——作者先自己剪（横屏 2 小时 + 竖屏 1.5 小时），后来把竖屏外包给自由职业者、每周 $379，48 周 192 条竖屏共 $18,192；OpusClip 4.0 的 Recipe 把第二遍剪辑省掉。
+- 核心用法：1) Recipe 是一套存下来的剪辑设置（比例与布局、清理、字幕样式、标题、钩子、B-roll），OpusClip 自带 6 个（Clip long video、Clean up recording、Auto-edit talking videos、Captions、Reframe、Upscale），自己的存到第二栏 My custom recipes；2) LinkedIn Recipe：从 Auto-edit talking videos 起，定 4 件事——比例 16:9（4 种比例、7 种自动布局 Fill/Fit/Split/Three/Four/ScreenShare/Gameplay，多人播客用 Split/Three/Four）；清理（去停顿与口头禅、去房间回声与底噪、自动校色修手机平光、眼神校正拉回镜头）；文字（朴素字幕 + 标题，用 Brand kit 一次定字体颜色）；数字（开 Motion Graphics，数字上屏成图表）；存成自定义 Recipe、按平台起名；3) Reels Recipe：同一条原片反向切——比例 9:16 Fill 布局，Reframe 跟拍说话人；动画字幕 + AI 表情；Auto zoom 加 punch-in、AI B-roll 按需配画面；Viral Hook 在第 0 秒放开场（文字+动效+音效，20 种样式可选）；4) Motion Graphics：32 个模板分 Data/Social/Promo 三组，说数字/名字/引用就上屏（"2.4 million views in 30 days"配增长图、三钩子对比用柱状图、读评论出原评论卡片、跟读客户评价出五星卡片、CTA 处弹出 Follow/Subscribe 按钮），全部可改文字数字名字，Match hook style 保持与钩子同字体同色；5) 下一条原片：点一下 Recipe chip 就出同一套剪辑，一条录制、两次点击、LinkedIn + Reels 双版；播客同理（Daily Reels、Podcast Editing、Podcast Clips for LinkedIn 三个 Recipe）；6) 像改文档一样改片：每条剪辑都以 transcript 形式打开，删一句文字就删掉对应视频，停顿在文字里标长度（0.55s/0.36s/0.44s），样片同一句开了 4 次头就是 3 句要删；7) 导出四路：Publish on Social（定时或直发）、Export XML（进 Premiere/DaVinci 手工收尾）、Upscale & download（HD/4K）、Download HD。
+- 什么时候用 / 常见坑：全文围绕 OpusClip 4.0、带产品介绍性质，但步骤完整可复用；"20M 用户、10 亿+ clips"为作者转述官方说法；浏览器报告所引提示词示例在 Article 原文中未找到，本条不采用；Recipe 之外的附加能力（Upscale、配音翻译、自定画布背景、转场、GIPHY 贴纸、新标题字幕样式）也可进 Recipe。
+
+**适用场景**：同一条视频发 LinkedIn + Reels/Shorts、想把"第二遍剪辑"省掉的创作者。
+
+**怎么用它搞钱**：接"一条原片双平台成片"代剪辑单——按 Recipe 一次配置、多条复用，按条收费。
+
+**来源**：[@0x_fokki 原帖](https://x.com/0x_fokki/status/2118008499300876509)（2026-11-04 23:52，经 fxtwitter API 核验，长文全文经 API 直读）
+
+### Claude 剪辑提示词加四样东西（@MaxRohowsky）
+
+**核心提炼**
+- 解决什么问题：让 Claude 剪视频时只说"剪一下"不够——作者在提示词里固定加四样，省得每次说错就重录整段。
+- 核心用法（4 条）：1) 转录并剪掉停顿：让它转录、去掉错误与重复的镜头，省得每次说错就重录整段；2) 修光线：调曝光与白平衡，让画面自然、跨切一致；3) 音频电平：降底噪、人声保持一致音量（作者只用 iPhone、无麦克风、底噪大，成片音频仍然可用）；4) 加动效、给参考图才不像 AI 味：给字体、颜色、动画风格的示例（作者用 Higgsfield 做 AI 视觉、HyperFrames 或 Remotion 做动效）。
+- 什么时候用 / 常见坑：短帖、四条均为一句话方法，胜在可直接粘贴进提示词；浏览器报告所列"加字幕、加钩子"与原文不符，本条以 API 原文四条为准。
+
+**适用场景**：用 Claude Code 剪口播、想让提示词一次到位的创作者。
+
+**怎么用它搞钱**：把这四条做成自己接单的剪辑提示词模板，口播代剪辑按条收费。
+
+**来源**：[@MaxRohowsky 原帖](https://x.com/MaxRohowsky/status/2117527347679154667)（2026-11-03 16:00，经 fxtwitter API 核验）
+
+### REA-Video：把爆款视频的剪辑风格扒出来（@rileybrown）
+
+**核心提炼**
+- 解决什么问题：想复刻一条爆款视频的剪辑风格，但不知道它每一帧是怎么剪的——流传中的 REA-Video（Reverse Engineer Anything - Video）让 Claude 下载一段 YouTube 视频，逐帧分析每一帧及其相互关系，从中"提取"这条视频的剪辑风格；配 Fable 效果很好。
+- 核心用法：作者在 Kurzgesagt 视频上实测过（直播中做的，因怕剪辑师群体反弹没发出来）；作者的判断是：做出真正会剪辑、会创作视频的模型的路子可能就是这样——把每条好视频逆向成代码文件，再用这些数据训模型；同时转述 @elder_plinius 的提醒：各家实验室可能正在用无护栏的未发布模型系统性逆向全网软件、App 与游戏，再把重建的源代码喂进训练管线。
+- 什么时候用 / 常见坑：帖子本身未给仓库链接与安装步骤，方法描述较短；同 skill 的中文详解见本库下一条（@laowangbabababa）；作者在回复中补充"它不是只做拆解或只生成 skill 文件，而是直接把视频重新做出来"（回复内容，仅浏览器侧读取，未经 API 直读核验）；逆向他人成片涉及版权与社区争议，复用时只学剪辑方法、不搬原片素材。
+
+**适用场景**：想拆解对标视频的剪辑风格、再按自己的素材重做一遍的创作者。
+
+**怎么用它搞钱**：接"爆款视频风格复刻"单——先扒风格、再按客户素材重做，按条收费；或把"风格提取→重做"做成对标拆解服务。
+
+**来源**：[@rileybrown 原帖](https://x.com/rileybrown/status/2119935865933725888)（2026-11-10 07:31，经 fxtwitter API 核验）
+
+### rea-video 中文详解：拆到具体镜头再自己重做（@laowangbabababa）
+
+**核心提炼**
+- 解决什么问题：只拿到一句提示词不够——rea-video 把一段成片拆成可执行的任务，让你判断哪些值得自己拍、哪些可以生成、哪些需要写代码。
+- 核心用法（3 点）：1) 拆到具体镜头：分析实拍、AI 生成、代码动画等制作方式，也拆字幕、贴纸、剪辑节奏和声音；对应给出机位灯光建议、生成提示词，或代码动画的实现方向；2) 分析完给下一步怎么做：把成片拆成可执行的任务，再参考方案自己重做；别把分析结果当成原作者真实制作流程的证明；3) 它不会直接吐出成品视频：交付拆解报告和复刻方案，真正出片还得自己拍、生成，或接其他工具；需要 Python 3.10 以上和 ffmpeg，本地工具模式可离线使用，接视觉模型可能产生费用。
+- 验收规则（@dustADD 引用本条原帖补充）：视频风格能扒，验收时间省不掉；先拿一段真实素材试——字幕和节奏能不能直接用，决定了省下的时间够不够付模型账单。
+- 什么时候用 / 常见坑：仓库 JuneYaooo/rea-video 已在拉片库收录（2026-11-05，⭐1720），本条只取剪辑角度的方法、不重复计仓库条目；当前星数经 GitHub API 核验为 ⭐5542、Apache-2.0、最近推送 2026-11-09；帖子附带的引用卡片为作者 6 月 1 日的 GitHub 教程，与本条无关。
+
+**适用场景**：想系统拆解对标视频、再按拆解方案重做一遍的创作者。
+
+**怎么用它搞钱**：接"对标视频拆解 + 复刻方案"单——按"逐镜拆解 + 带截图提示词 + 可执行任务清单"报价，按条收费。
+
+**来源**：[@laowangbabababa 原帖](https://x.com/laowangbabababa/status/2119817152706527239)（2026-11-09 23:39，经 fxtwitter API 核验）+ [@dustADD 验收补充](https://x.com/dustADD/status/2119945907126804675)（2026-11-10 08:11，经 fxtwitter API 核验，引用 @rileybrown 原帖）· 仓库 [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) · ⭐5542 · Apache-2.0 · 最近推送 2026-11-09（GitHub API 核验）
+
+### faster-whisper 本地转字幕实测：先转 wav 再转录（@Guangquan66）
+
+**核心提炼**
+- 解决什么问题：本地给口播视频自动出字幕草稿，不想每月交语音 API 的钱——作者在没填模型 Key、没开云端语音接口的 Linux 云电脑上，把 SYSTRAN 开源的 faster-whisper（26,541★、2,215 fork、MIT）装进本地虚拟环境，亲手实测十步。
+- 核心用法（10 步实测）：1) 虚拟环境里装：`python3 -m venv` + `pip install faster-whisper`，装到 1.2.1（顺带 ctranslate2 4.8.5、av 19.0.2——后一个版本号很关键）；2) 先核对仓库数字：发文前用 GitHub API 现查星数，不抄别人卡片；3) 直接读 mp3 会炸：把 mp3 路径丢给 `transcribe` → `TypeError: metadata_errors`、EXIT=1（faster-whisper 1.2.1 的 `decode_audio` 还在给 PyAV 传 `metadata_errors=`，而 pip 拉到的 av 19.0.2 已不认这个参数；装成功 ≠ 路径能直接转）；4) ffmpeg 先转 16k 单声道 wav：`ffmpeg -y -i 输入 -ac 1 -ar 16000 输出.wav`，再用标准库 wave + numpy 读成 float32 数组喂进去，不再走有 bug 的路径解码；5) 中文口播 + tiny：17.33 秒音频推理 0.457 秒能出字，但错字多（"口播"→"口波獎"、"字幕"→"出自目"、专有名词糊掉、名字写错），tiny 适合先出一版草稿、不适合直接当终稿；6) 换 base 模型：加载变慢（load 4.099 秒含首次下载）、句子清楚很多（"口播"对了），日常建议先 tiny 试通路、正式字幕用 base 或更大，CPU 上 base 加载比推理贵；7) 英文会议短音频 tiny 就很能打：10.49 秒音频推理 0.325 秒、三句几乎全对；8) 静音文件出空文件：3 秒纯静音 EXIT=0、输出 0 字节——没声音就别硬编字幕，比瞎编一句可靠，开 `--vad` 同样是空文件；9) 语言选错会一本正经胡说：同一段中文口播强制 `--language en`，出来"the first melody is called Fester whistle"，命令成功 ≠ 内容可信，不确定语种宁可自动检测、或先听 3 秒再设 `--language`；10) 中英夹杂一句：英文半句往往比中文半句稳（"排期"→"排棄"、"群里"→"群力"，英文全对），终稿仍要人工改专有名词和近音错字。
+- 最短路径（5 步）：建 venv → `pip install faster-whisper` → 直接读 mp3/mp4 报 `metadata_errors` 就先 ffmpeg 转 wav → wav 读成 float32 再 `WhisperModel("tiny", device="cpu", compute_type="int8").transcribe(array, language="zh")` → 中文先 tiny 通路、定稿换 base，语言参数别瞎填。
+- 什么时候用 / 常见坑：只用 CPU + int8，没开 CUDA、没填 Hugging Face Token；没跟 openai-whisper 原版对打 WER，也不编"快 4 倍"这类百分比；没接 WhisperX 说话人分离、没接字幕烧录成 srt 的完整剪辑链；浏览器报告所列后五步（烧字幕/对齐/B-roll/转场/封面）在原文中不存在，本条以 API 原文十步为准；流水线库另有一篇 faster-whisper 实测（@zdt0403，2026-11-02，热词表方向），与本条角度不同。
+
+**适用场景**：要把会议录音、口播、英文参考视频先变成可复制文字/字幕草稿，又不想每月交语音 API 钱的创作者。
+
+**怎么用它搞钱**：接"会议/口播转写 + 字幕草稿"单——按"本地免费转录 + 人工校对专有名词"打包，按分钟或按条收费。
+
+**来源**：[@Guangquan66 原帖](https://x.com/Guangquan66/status/2118950236798189952)（2026-11-07 14:14，经 fxtwitter API 核验，长文全文经 API 直读）· 项目 [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) · ⭐26541 · MIT · 最近推送 2026-11-06（文中作者 API 现查）
+
+### 给 Codex 装 7 个 Skills：按视频类型选（@liyuuuing）
+
+**核心提炼**
+- 解决什么问题：装完 Codex 不知道干什么——作者给出一份"按视频类型安装"的 7 个 GitHub Skills 选型清单，别一次装十个，先拿 3–4 个直接去小红书起一个能变现的号。
+- 核心用法（7 项）：1) HyperFrames：一句话生成动效视频，告诉 Codex 主题，它用 HTML、CSS 和动画做知识卡、动态海报、绘本风短片，再渲成 MP4，适合把一段文案快速变成可发的竖屏内容；2) Remotion Skills：用代码批量做固定模板视频，标题、字幕、图片、数据自动替换，适合批量 Shorts、榜单、产品介绍这类"模板固定、内容换皮"；3) ffmpeg-skill：本地剪辑和批量导出工具箱，裁切、拼接、横转竖、去静音、压缩、加字幕、压 Logo、调音量，素材留本地，适合成片前统一处理和批量导出（帖内链接 github.com/ffmpeg-skill 经查不存在，库内同名工具为 kajisho5/ffmpeg-skill）；4) video-use：让 Codex 帮你剪已有素材，素材丢进去、先转录再出剪辑方案，切片、字幕、动效，最后 FFmpeg 出片，适合口播、教程、访谈这种"片已有、不想自己慢慢剪"；5) agent-caption：自动给视频上字幕，识别人声、对齐时间轴、烧录字幕，口播、课程、Podcast、Shorts 都省事，也能本地跑；6) video-shotcraft：电影感产品宣传片，给 Claude Code/Codex 用，抓真实页面 → 镜头卡分镜 → Remotion 动效 → 成片，适合独立产品、功能演示、发布预告（本档 GitHub 侧已独立收录 Vincentwei1021/video-shotcraft）；7) media-use / talking-head-recut：口播包装和素材配音，给口播加标题卡、下三分栏，或给素材配旁白/BGM，把"有画面"收成一条完整可发（来源：HyperFrames 技能包）。
+- 变现打法（帖内附完整路线）：赛道先定亲子治愈向"动态绘本/睡前小故事"，人设是每天用 AI 给家长产出 30–45 秒竖屏小故事（统一画风、大字幕、轻配音）；流水线：选题（情绪/习惯/亲子对话）→ Codex 写 5–8 句旁白 → HyperFrames 出绘本风画面 → media-use 补配音和 BGM → ffmpeg-skill 导出 9:16 → 当天发小红书；节奏：先连发 7–10 条同题材、测完播和收藏，稳住后再日更或隔日更；钱按顺序来：平台创作激励/加热扶持 → 橱窗挂绘本、早教、亲子周边 → 商单（早教机构、绘本馆、儿童用品）→ 同模板代做（帮别的亲子号按条出片）。
+- 什么时候用 / 常见坑：浏览器报告所列第 4/5/7 项（OpenCut、StoryToolkitAI、claude-remotion-skill）与原文不符，本条以 API 原文七项为准；"库库搞钱"的关键不是收藏 7 个 Skill，而是能不能用其中 3–4 个天天发出去、后面接得住激励和商单。
+
+**适用场景**：刚装好 Codex、想按视频类型装 skill 并快速起一个能变现的号的创作者。
+
+**怎么用它搞钱**：按帖内亲子绘本路线跑小红书号（激励 → 橱窗 → 商单 → 同模板代做）；或把"按视频类型选 skill"做成 Codex 装机咨询。
+
+**来源**：[@liyuuuing 原帖](https://x.com/liyuuuing/status/2119748082170823004)（2026-11-09 19:05，经 fxtwitter API 核验）
+
+### 函数逐帧画 MV：450 帧全代码绘制 + ffmpeg 合成（@oob4sod18，日文）
+
+**核心提炼**
+- 解决什么问题：MV 告知视频想做出程序感强、每一帧都算出来的画面——作者的基本想法是"给一个时刻，返回那一瞬的一张画"的程序，15 秒按 30fps×15 秒 = 450 张依次画出来，再用 ffmpeg 合成视频。
+- 核心用法：1) 时间全部用数值定：按曲子 tempo 145BPM、"1 拍 = 0.414 秒"的倍数切镜头；2) 画面两种做法：告知版用 Python + OpenCV（文字抠像、glitch、镜头光晕做图像处理合成），前日/当日版用 Three.js 做 3D 玻璃、无头 Chrome 一帧一帧拍，玻璃后的文字与映像扭曲是自写 shader；3) 声音：音效（hit、whoosh、braam 等）用 Stable Audio 生成，MV 乐曲按解析出的拍头切出，ffmpeg 混音并统一到 SNS 音量 -14 LUFS；4) MV 的切点与高潮也由程序解析来选；5) 工作流：给参考视频说一句"这种氛围" → AI 搭构成、写出来 → 觉得不对的地方用语言让它改 → 反复循环，一条告知视频能出好几个版本。
+- 什么时候用 / 常见坑：作者称这个方法也可以直接用在宣传短视频和广告上，并称会再介绍 Remotion 的方法；浏览器报告所写"转场用溶解、背景用圆与云朵"在原文中未找到，本条不采用；与库内"代码即影片"同属代码画视频，但本条是逐帧函数绘制 + 拍点对齐，做法不同。
+
+**适用场景**：做 MV、宣传短视频、广告，想用程序逐帧控制画面与音乐节拍的创作者。
+
+**怎么用它搞钱**：接"程序化 MV/宣传片"单——按"逐帧绘制 + 拍点切镜头 + -14 LUFS 混音"报价，按条收费。
+
+**来源**：[@oob4sod18 原帖](https://x.com/oob4sod18/status/2119953312766435807)（2026-11-10 08:40，经 fxtwitter API 核验，日文原文已读）
+
+### 耳机广告的声音设计：戴上前后闷→清晰（@oob4sod18，日文，边界）
+
+**核心提炼**
+- 解决什么问题：耳机广告怎么用声音讲产品功能——作者的 IRO:ME 耳机广告 CM 用"戴上耳机前后音质变化"当剪辑主线，单支案例方法。
+- 核心用法（制作分担）：映像素材：TapNow 的 AI Agent；曲：Claude Code × Suno（按歌词做青春 emo 系曲子）；声：Claude Code × ElevenLabs；编辑：Claude Code × Remotion——街头的声音 → 耳机靠近耳朵时曲子变得闷闷的 → 戴上的瞬间变清晰；另有液体转场、名字显示、产品特写剪切。
+- 什么时候用 / 常见坑：单支案例、帖子本身是制作分担说明，方法价值在"用声音变化讲产品功能"这一个可迁移点子上；TapNow 为作者合作方（简介标注 CPP：Vidu/CapCut/TapNow），工具选择带合作背景。
+
+**适用场景**：做耳机、音频产品广告，想用声音设计讲产品功能的创作者。
+
+**怎么用它搞钱**：接产品广告代制作——"声音设计讲功能 + Remotion 剪辑"按条收费。
+
+**来源**：[@oob4sod18 原帖](https://x.com/oob4sod18/status/2119594370735480947)（2026-11-09 08:54，经 fxtwitter API 核验，日文原文已读；为自家 11-08 耳机广告帖的跟帖）
+
+### eva-video-style
+
+**核心提炼**
+- 解决什么问题：口播原片想做出电影感动态包装，但逐帧做动效太费时间——22 套现成模板，Claude 按模板把原片 + 字幕渲染成带动态图形、双语字幕的成片，帧帧可复现、可改。
+- 核心用法（4 步）：1) 把仓库装成 Claude skill（或直接用工具链：Node 18+、Python 3 + numpy、FFmpeg）→ 2) 丢原片 + SRT（英文或中英双语）→ 3) 点名模板（T01–T24，如 T19 新闻片段、T21 总结）或让 Claude 按段落自选 → 4) 导出；每帧由代码渲染，结果确定、可编辑；音频只保留原声 + 短音效，归一化到约 -16 LUFS。
+- 什么时候用 / 常见坑：口播、讲解、访谈类竖屏最合适；22 模板含电影、科技、社媒、极简等多风格，T18/T22 已退役；中英双语字幕只改烧录字幕里的机器翻译错漏，不动原始 SRT；T19 实拍抠像需另装 opencv/onnxruntime。
+
+**适用场景**：做口播、知识讲解、访谈视频，想批量套同一视觉风格的个人创作者和团队。
+
+**怎么用它搞钱**：口播账号的视觉代工——同一模板套多期，按条收费；或把调好的模板组合卖给同行。
+
+**来源**：[RoverEva/eva-video-style](https://github.com/RoverEva/eva-video-style) · ⭐49 · MIT · 最近推送 2026-11-09（GitHub API 核验，README 已读）
+
+### auto-edit-video
+
+**核心提炼**
+- 解决什么问题：长口播从原片到发布要过转写、剪废话、想开头、做字幕、写标题、做封面、上传七道手活——一个桌面 App + CLI 全包，Agent 先审片再动手剪。
+- 核心用法（6 步）：1) 下桌面 App（macOS/Windows/Linux，内置 Python、Whisper、FFmpeg，不用自己装环境）或走 CLI → 2) 选视频、说清主题 → 3) Agent 转写、剪静音与废话、把最精彩的片段放开头做 cold open、必要时重排段落 → 4) Agent 先审一遍剪辑计划（开头拖沓或句子被切断就打回重排），通过后 FFmpeg 才动手 → 5) 出 CapCut 风字幕（Shorts）或 .srt（长视频）、标题/描述/标签/章节/置顶评论/封面 → 6) 一键发 YouTube（可定时），还能看留存曲线、知道观众在哪一段流失，下次剪片时学回来。
+- 什么时候用 / 常见坑：葡萄牙语项目，界面与文档为葡语（README 已读核实功能）；Agent 需另装 Claude Code / Cursor / Codex / OpenRouter / Ollama 其中之一；支持从长视频切 Shorts；封面样式可存为 .autoedit-style.json 文件导出复用；Windows 安装包尚未签名，首次打开要走"仍要运行"。
+
+**适用场景**：做 YouTube 长视频 + Shorts、想把"剪片→发布→看留存"串成一条线的个人创作者。
+
+**怎么用它搞钱**：接"长视频精剪 + Shorts 切片 + 发布"代工单，按条收费；或把留存复盘做成频道增长咨询。
+
+**来源**：[gabuldev/auto-edit-video](https://github.com/gabuldev/auto-edit-video) · ⭐120 · 暂无 LICENSE（商用前需确认授权）· 最近推送 2026-11-03（GitHub API 核验，README 已读）
+
+### AIEVv2
+
+**核心提炼**
+- 解决什么问题：库内已收的 AIEV 只能"丢素材等成片"，想中途改时间线、翻成别的语言、把长片切成 Shorts 还得换工具——同作者的 v2 重写版把编辑器、翻译配音、自动切片都收进同一个仪表盘。
+- 核心用法（4 步）：1) 本地部署（Next.js 前端 6868 + Express 后端 6869）→ 2) 丢素材、简单描述想要的效果，点"Start editing with AI" → 3) 浏览器里直接改时间线（调顺序/裁剪/拆分、改卡拉 OK 字幕、音效音乐），或跟侧边 AI 对话改 → 4) 导出 MP4，或导出 Premiere/DaVinci XML 进传统软件精修；另有三条线：文章粘贴进来转有声视频、长片一键切多条 Shorts、整段对话翻译 + 烧字幕/换声配音。
+- 什么时候用 / 常见坑：v1 入库条目（notivn/AIEV）只覆盖自动剪辑，本条新增价值在时间线编辑器、翻译配音、自动切片、声音克隆（VieNeu-TTS 离线克隆自己的声音）、50 套视觉风格、品牌 kit 全片强制执行；需自部署，有技术门槛；越南语场景打磨最深（卡拉 OK 字幕、方言口音），中文用前先实测字幕与配音效果。
+
+**适用场景**：做品牌内容、知识视频，又想在 AI 成片后自己动手精修时间线、或把同一内容翻成多语言的团队。
+
+**怎么用它搞钱**：品牌宣传片/课程片的"AI 粗剪 + 人工精修 + 多语言翻版"打包服务，按条收费；或把翻译配音做成出海内容代工。
+
+**来源**：[notivn/AIEVv2](https://github.com/notivn/AIEVv2) · ⭐138 · MIT · 最近推送 2026-11-04（GitHub API 核验，README 已读；与库内 AIEV 同作者 v2 重写版）
+
+### ChatGPT 剪短影音 Skills
+
+**核心提炼**
+- 解决什么问题：想让 ChatGPT/Codex 这类能动本机文件与终端的 Agent 剪直式短影音，但怕它乱装工具、偷偷上传素材、把没做完的东西说成成品——两个 Skill 把"装环境"和"真剪辑"拆开，全程要证据、要你点头。
+- 核心用法（4 步）：1) `npx skills add Jaycheng1103/chatgpt-video-editing-skills --full-depth` 装到 Agent 上 → 2) setup Skill 先检查/安装/修复 FFmpeg、ffprobe、字幕字体、ElevenLabs 凭证、HyperFrames 环境（只管环境，不碰素材）→ 3) editor Skill 接手：逐字转写 → 剪辑策略 → 粗剪 → 字幕 → 预览 → QA → 正式输出；正式定稿前必须你预览核准，不会静默输出 → 4) 全程以实际输出与 QA 证据为准，不把计划、指令或未验证文件说成完成品。
+- 什么时候用 / 常见坑：繁体中文 Skill，配图有八大步骤流程图；适合已有 ChatGPT/Codex 且想在本机跑通"环境→剪辑→验收"全流程的人；保护原始素材，付费或上传前会先取得同意。
+
+**适用场景**：用 ChatGPT/Codex 做直式短影音、又怕 Agent 瞎搞的中文创作者。
+
+**怎么用它搞钱**：接"AI 剪辑环境搭建 + 短影音代剪"单——先帮客户把环境与验收流程跑通，再按条收代剪费。
+
+**来源**：[Jaycheng1103/chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) · ⭐616 · MIT · 最近推送 2026-07-26（GitHub API 核验，README 已读）
+
+### video-editing-skill
+
+**核心提炼**
+- 解决什么问题：口播、教程、访谈、播客切片、录屏演示的素材堆在那，从"素材堆"到"可发布的小红书/抖音/视频号短视频"中间有几十道工序——这条中文生产线把每一道都写成可审计的脚本与 gate，人工只负责复核放行。
+- 核心用法（3 步）：1) 丢原始口播音视频、transcript、B-roll、摄像头小窗或素材目录 → 2) Agent 按生产线跑：本机工具链预检 → 交错检测与 VFR 时基归一 → 静音首尾裁切 → 多机位同步与按说话者导播草稿 → 清稿去口头禅/停顿（多模态死区：声音与画面同时静止才删）→ 分镜与 B-roll 规划 → 字幕与声音设计（BGM 卡点、speed ramp、J-cut/L-cut）→ 单次编码渲染 → 质检（SSIM/PSNR、字幕像素复核、唇形复核、闪烁筛查）→ 三平台导出 → 3) 每一步落成可审计 artifact（收据绑定源片与输出字节），源 hash 或设置漂移就让 gate 失效、必须重新复核。
+- 什么时候用 / 常见坑：中文社媒口播生产化调参（重 CJK 字幕、1.25x 主输出、响度规范化、平台违禁词 lint）；多机位、播客音频转竖版、照片蒙太奇、Logo 叠加、章节封装、元数据清除都有现成脚本；生产级、偏工程实现，上手先读 workflow 再跑；暂无 LICENSE，商用前需确认授权。
+
+**适用场景**：做中文口播/教程/播客切片，想把剪辑变成可复核生产线的个人与小团队。
+
+**怎么用它搞钱**：接中文口播账号的"素材堆→发布包"代工单，按条或按月收费；或把这套质检 gate 做成剪辑交付的验收标准卖给同行。
+
+**来源**：[maxazure/video-editing-skill](https://github.com/maxazure/video-editing-skill) · ⭐209 · 暂无 LICENSE（商用前需确认授权）· 最近推送 2026-10-18（GitHub API 核验，README 已读）
+
+### heditor
+
+**核心提炼**
+- 解决什么问题：talking-head 录像想剪成有设计感的 Reel，但模板套出来千篇一律——给 Agent 一个"创意剪辑师" skill，每条片子先想视觉世界再动手剪，风格是测过的视觉语言、不是重复模具。
+- 核心用法（4 步）：1) 装成 Claude Code/Codex/OpenCode/Cursor/Hermes 的 skill → 2) 一句话下单（"用 podcast 风格剪这段""创意模式，给我惊喜""按 GTA 6 风格剪 12:30–13:40"）→ 3) Agent 全程本地做：找说话人构图 → 逐词转写、挑一段 30–70 秒完整论述 → 逐帧剪话与镜头、缩短停顿、处理人声 → 写 DESIGN.md 定视觉世界与声画脚本 → HTML + GSAP 排版、HyperFrames 渲染 → 混音（人声在前，音乐音效在后，−14 LUFS）→ 4) 过验收：lint、视觉复核预览、测试、上边距逐像素量、响度、真峰值、终版音频转写、40 帧 contact sheet。
+- 什么时候用 / 常见坑：葡萄牙语项目（README 有英文版）；竖屏 1080×1920 Reels/Shorts/TikTok 与长视频（16:9/1:1/4:5/9:16）都支持；仓库含 LICENSE 文件、README 标注 MIT，但 GitHub API 未识别许可类型，商用前以仓库 LICENSE 文件为准。
+
+**适用场景**：做访谈、课程、播客、talking-head，想每条片子都有独立视觉设计的创作者。
+
+**怎么用它搞钱**：接"访谈/课程精剪 + 视觉包装"代工单，按条收费；或把调好的风格做成自家频道的固定视觉语言卖课。
+
+**来源**：[pycodebr/heditor](https://github.com/pycodebr/heditor) · ⭐113 · README 标注 MIT（仓库含 LICENSE 文件，GitHub API 未识别许可类型）· 最近推送 2026-11-04（GitHub API 核验，README 已读）
+
+### vertical-video-editing-skills
+
+**核心提炼**
+- 解决什么问题：脚本 + 口播素材都有了，AI 剪出来的竖屏却像"统一 1 秒切、默认字体、stock 模板"——这个 skill 把资深剪辑师的"品味、规则、工作流"编码成标准，让 Agent 按行规出片。
+- 核心用法（5 步）：1) `npx vertical-video-editing-skill` 一键装进 Claude skills → 2) 给 Agent 定稿脚本 + 配音/口播素材 + B-roll → 3) Agent 按编辑标准剪：前 1–3 秒钩子语法（pattern interrupt、分屏长成全幅，绝不开场静止 talking head）→ A-roll 主线 + B-roll 覆盖点缀、按文案能量切（最快 0.2 秒，拒绝机械 1 秒一切）→ 缓动运镜（防抖合同：GPU 层、force3D、动 wrapper 不动本体）→ 编辑设计系统（十种版式：衬线/无衬线混排标题、纸纹/深色网格底、叠层分屏 + 缝线字幕、高亮条、名片等）→ 逐词字幕避开人脸（眼在上三分之一）→ 程序化合成 whoosh/click/riser/impact 音效、混成一条母带 → 4) 渲染验收 gate（verify-render.mjs 硬查 9:16、时长、h264/yuv420p、有音频），不过不算完 → 5) 每条出 edit-report.md：逐拍决策、素材、音效、验证证据。
+- 什么时候用 / 常见坑：竖屏 1080×1920 短视频（TikTok/Reels/Shorts）最对味；渲染走 HyperFrames（HTML + GSAP），skill 本身不造轮子、只定标准；品牌色/字体/组件写进 FRAME.md 一次，全片沿用；本条已在 x-viral-skills-curated v3.6 收录，本库从剪辑角度独立计入。
+
+**适用场景**：做竖屏口播/知识短视频、想让 AI 剪辑达到"真人剪辑师水准"的创作者与代运营团队。
+
+**怎么用它搞钱**：竖屏短视频代剪辑——"钩子语法 + 0.2 秒级剪辑 + 渲染验收 gate"是谈单证据，按条或按月收费。
+
+**来源**：[nopefallacy/vertical-video-editing-skills](https://github.com/nopefallacy/vertical-video-editing-skills) · ⭐69 · MIT · 最近推送 2026-06-21（GitHub API 核验，README 已读）
+
+### video-shotcraft
+
+- 解决什么问题：产品宣传片想做出电影感镜头，但逐个镜头想运镜、想转场太费时间——124 张镜头卡 + 150 个镜头预览的开源 skill，Agent 按卡名挑镜头、Remotion 渲染成片，还能导出剪辑草稿再改。
+- 核心用法（4 步）：1) 把仓库装成 Claude Code/Codex 的 skill → 2) 一句话说需求（如"给我的产品做个宣传片"），Agent 抓真实页面、按镜头卡挑分镜 → 3) Remotion 渲染成 MP4 → 4) 不满意导出剪辑草稿再改；124 张配方卡分 10 类，150 个镜头全有 Gallery 预览，按名字挑卡、复制即用。
+- 什么时候用 / 常见坑：产品介绍、功能演示、发布预告最对味；代码与文档 Apache-2.0，模型与渲染工具费用另看各自条款；经 @Jarvist719 11-10 帖与 @liyuuuing 11-09 选型帖双重引入。
+
+**适用场景**：做独立产品宣传片、功能演示视频，想按镜头卡快速出电影感成片的创作者与小团队。
+
+**怎么用它搞钱**：接产品宣传片代制作——按镜头卡出片，按条收费；或把调好的镜头组合做成自家产品的固定宣传模板。
+
+**来源**：[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · ⭐18190 · Apache-2.0 · 最近推送 2026-11-09（GitHub API 核验，README 已读；经 @Jarvist719 与 @liyuuuing 帖引入）
+
+### Concat
+
+- 解决什么问题：想找一个免费、开源、本地跑的剪辑器，还能让 Claude 等 Agent 直接调它剪片——Concat 全本地跑、无水印免账号，内置 MCP，Agent 能直接调它剪片。
+- 核心用法：1) 下桌面版（Mac/Win/Linux/安卓，v0.2.10）→ 2) 直接剪，或走内置 MCP（`concat --mcp`）让 Claude 等 Agent 调它剪片 → 3) 自带本地 Whisper 字幕、TTS/声音克隆、抠像，最高导出 4K60。
+- 什么时候用 / 常见坑：AGPL-3.0；全本地跑、素材不上云；Beta 阶段，功能仍在迭代；经 @usuperman2017 11-10 帖引入。
+
+**适用场景**：想本地剪辑、又想让 Agent 直接调剪辑器的个人创作者。
+
+**怎么用它搞钱**：接"本地剪辑 + Agent 剪辑"代工单，按条收费；或把 Concat + MCP 搭成剪辑工作站卖给同行。
+
+**来源**：[jub0t/Concat](https://github.com/jub0t/Concat) · ⭐16192 · AGPL-3.0 · 最近推送 2026-11-10（GitHub API 核验，README 已读；经 @usuperman2017 帖引入）
+
+### OpenCreator
+
+- 解决什么问题：脚本、视频、图片、语音、翻译、剪辑散在六七个工具里——OpenCreator（原 KrillinAI）把视觉设置、可复用 Skills 与 Agents 收进一个开源 AI 创作工作台，本地跑全套内容生产线。
+- 核心用法：1) 装桌面端 → 2) 在工作台里走 Skills 与 Agents：脚本、视频、图片、语音、翻译、剪辑合一 → 3) 据 @shshajs85 帖介绍：一键 AI 剪辑（说出需求自动完成剪辑流程）、一键批量生成多条视频（生成、配音、剪辑自动完成），另有 120+ 语言视频翻译与配音（Whisper 识别 + LLM 翻译，支持 GPT-4o、Claude、Gemini、Ollama）、AI 换脸与数字人（任意照片生成口型与动作自然的数字人）、免费 AI 视频生成功能（Veo3 模型与 AI 语音做产品广告、知识科普）。
+- 什么时候用 / 常见坑：Apache-2.0；功能清单据介绍帖整理，README 头部已核验工作台定位，具体功能细节以仓库文档为准；翻译配音与数字人功能超出剪辑范畴，本条只取剪辑与批量生产角度。
+
+**适用场景**：想本地跑"翻译配音 + 数字人 + 剪辑 + 批量出片"全套生产线的个人与小团队。
+
+**怎么用它搞钱**：接"多语言翻配 + 批量短视频"代工单，按条或按批收费。
+
+**来源**：[krillinai/OpenCreator](https://github.com/krillinai/OpenCreator) · ⭐14274 · Apache-2.0 · 最近推送 2026-11-10（GitHub API 核验，README 已读；经 @shshajs85 帖引入）
+
+### OpenFilm
+
+- 解决什么问题：想让 coding agent 拍片，又想拍完能像在剪辑软件里一样亲手改——OpenFilm 让 agent 把片子写成网页，再用浏览器里的本地编辑器 Studio 亲手改。
+- 核心用法（3 个"一"）：1) 一个 HTML 文件：`film.html` 把动画网页、实拍、图片、声音拼在轨道上、用 CSS 定样式，agent 本来就会写网页、不用学新东西；2) 一个函数：每个镜头都是一个网页，用 `frame(t)` 画任意时刻的帧，可用 three.js、WebGL、canvas、SVG、CSS、GSAP、视频等浏览器能画的一切，不用 Remotion/HyperFrames 这类框架；3) 一个真编辑器：Studio 在浏览器里本地跑，移动/缩放/旋转页面内任意元素、改文字颜色样式，放、裁、换每段素材的样式，在时间线上修剪切分。
+- 什么时候用 / 常见坑：MIT；1:42 发布视频本身就是用 OpenFilm 从头做到尾；经 @NIxinhai0 11-10 帖引入（帖称 GitHub 5.4k stars，与 API 核验 5527★ 一致）；装在 WorkBuddy 上后选 OpenFilm skill、写清剪辑需求即可用。
+
+**适用场景**：会用 coding agent、想"agent 写片 + 人亲手改片"的创作者。
+
+**怎么用它搞钱**：接"agent 出片 + 人工精修"代制作单，按条收费；或把 OpenFilm + Studio 搭成自己的剪辑工作站。
+
+**来源**：[openfilm/openfilm](https://github.com/openfilm/openfilm) · ⭐5527 · MIT · 最近推送 2026-11-09（GitHub API 核验，README 已读；经 @NIxinhai0 帖引入）
+
+### video-editing-prompts-and-skills
+
+- 解决什么问题：让 Claude Code/Codex 剪视频时，每次都要从头解释"竖屏、8 秒、品牌色、别用图库"——13 条可复用提示词 + 一个 skill 目录，覆盖动态图形、动态排版、遮罩、字幕、音频与调色，另附共享制作简报。
+- 核心用法（3 步）：1) 从 PROMPTS.md 复制共享制作简报 → 2) 加一条任务提示词、把括号里的输入换成自己的 → 3) 给 agent 素材与兼容的剪辑工具，要渲染预览 + 可编辑源文件，再审结果；先定时间政策：Locked source（原话、顺序、节奏、时长全不动，只加图形）或 Editorial cut（允许修剪重排、但保意思与同步）。
+- 13 条提示词（PROMPTS.md 已核验）：电影感动态图形、对话驱动动态排版、主体遮罩与景深合成、纪录片解说、社交切片、播客与多机位、产品演示与录屏、字幕与无障碍、音频清理与声音设计、调色与镜头匹配、参考驱动动效、系列动效系统、审修已有剪辑。
+- 什么时候用 / 常见坑：⭐0（新仓），方法价值在提示词本身（PROMPTS.md 301 行已核验）；另附"值得收藏的 skills 与工具"与"可复用编辑器自动化提示词"两节。
+
+**适用场景**：用 Claude Code/Codex 剪视频、想把剪辑要求一次写好、反复复用的创作者。
+
+**怎么用它搞钱**：把这 13 条提示词做成自己接单的剪辑提示词包，口播/播客/产品演示代剪辑按条收费。
+
+**来源**：[tosind/video-editing-prompts-and-skills](https://github.com/tosind/video-editing-prompts-and-skills) · ⭐0（新仓）· MIT · 最近推送 2026-11-06（GitHub API 核验，README 与 PROMPTS.md 已读；经 @vdavi_d 帖引入）
+
 ## 相关分类
 
 - 总索引：[x-viral-video-skills](https://github.com/kkone1238899/x-viral-video-skills) —— 13 个分类导航
@@ -642,3 +986,4 @@
 - 2026-10-28：晚档新增 6 条（X：8 工具按环节选型 / 剪辑选型两分法 + 组合公式 / 5 个配音项目选型 + 试音验收 / 任意 Agent + Renoise MCP 一句话成片双实测对照（@ChengYi3629 + @shitunote 合并，@Zesee 广告复刻验收三问并入） / digital-human-koubo 数字人口播 Skill / 数字人口播动作说明书方法论；@qikamatata story-studio 帖与库内早档同仓去重，仅刷新其星数 138→313；@wukongnotnull 剪映草稿帖仅两句概念无方法、@DJC125765252591 初剪观点投票帖无可复用步骤，按宁缺毋滥剔除；6 帖正文与时间戳经 fxtwitter API 核验，qikamatata 帖时间以浏览器报告为准；仓库星数与许可经 GitHub API 核验）
 - 2026-10-15：早档新增 14 条（X 5 条：AI 短剧挑片流程 / 口播 AI 剪辑涨粉账 / 图生视频多段拼接 / Opus 动态设计 15 repos / ffmpeg-skill；GitHub 9 个项目：claude-remotion-skill / akari-video / ai-video-editing-skill / AIEV / oh-my-cassette / OpenCut / cutcraft / open-edits / favstash-ai-video-editing-skills），Star 全部经 GitHub API 核验
 - 2026-10-11：首版，2 个项目，持续收录中
+- 2026-11-10：早档新增 26 条（X 14 条：Claude Code 剪口播十步全流程 / 8 个免费工具搭 Claude 视频栈 / "edit"口令远程剪辑 / UGC 口播广告 4 项耗时 / X 原生 Clip 三帖合并（功能+变现四步+测试八步）/ Voxtral context biasing 字幕转写 / OpusClip 4.0 Recipe 横竖双版 / Claude 剪辑提示词 4 要素 / REA-Video 风格提取 + rea-video 中文详解（@dustADD 验收规则并入）/ faster-whisper 本地字幕实测十步 / Codex 7 Skills 选型 + 亲子绘本变现打法 / 函数逐帧画 MV / 耳机广告声音设计；GitHub 12 个：eva-video-style / auto-edit-video / AIEVv2 / chatgpt-video-editing-skills / video-editing-skill / heditor / vertical-video-editing-skills / video-shotcraft / Concat / OpenCreator / OpenFilm / video-editing-prompts-and-skills；X 帖正文与时间戳经 fxtwitter API 核验，浏览器报告多处与 API 原文不符已按 API 修正；仓库星数与许可经 GitHub API 核验；老条目星数刷新 11 个：FireRed-OpenStoryline 3479→3659、claude-remotion-skill 682→908、akari-video 209→213、ai-video-editing-skill 154→178、AIEV 135→156、oh-my-cassette 120→216、OpenCut 62→66、cutcraft 52→53、open-edits 41→61、favstash 24→62、YouTube-AI-Video-Editing-System 73→132）
