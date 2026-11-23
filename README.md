@@ -523,7 +523,7 @@
 
 **怎么用它搞钱**：接"AI 剪辑代工"——按"大白话需求→成片"打包按条收费；或拿爆款改编方案给客户做选题服务。
 
-**来源**：[@Chenfacai0 原帖](https://x.com/Chenfacai0/status/2120044786300178835)（2026-11-10 14:44，经 fxtwitter API 核验）· 仓库 [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐82,418 · AGPL-3.0 · 最近推送 2026-11-16（GitHub API 核验；原帖链接 github.com/calesthio/OpenMontage 已重定向至此）
+**来源**：[@Chenfacai0 原帖](https://x.com/Chenfacai0/status/2120044786300178835)（2026-11-10 14:44，经 fxtwitter API 核验）· 仓库 [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐82,591 · AGPL-3.0 · 最近推送 2026-11-16（GitHub API 核验；原帖链接 github.com/calesthio/OpenMontage 已重定向至此）
 
 ### WorkBuddy 复刻 Vibe 知识大赏：不会剪辑也能出代码动画知识片（@jungeAGI）
 
@@ -1298,7 +1298,7 @@
 
 **怎么用它搞钱**：接"本地剪辑 + Agent 剪辑"代工单，按条收费；或把 Concat + MCP 搭成剪辑工作站卖给同行。
 
-**来源**：[jub0t/Concat](https://github.com/jub0t/Concat) · ⭐16192 · AGPL-3.0 · 最近推送 2026-11-10（GitHub API 核验，README 已读；经 @usuperman2017 帖引入）
+**来源**：[jub0t/Concat](https://github.com/jub0t/Concat) · ⭐19765 · AGPL-3.0 · 最近推送 2026-11-23（GitHub API 核验，README 已读；经 @usuperman2017 帖引入）
 
 ### OpenCreator
 
@@ -1572,6 +1572,108 @@
 
 **来源**：[@GtfCyres 原帖](https://x.com/GtfCyres/status/2124759698188521807)（2026-11-23 14:59，经 fxtwitter API 核验第 5 步正文与时间戳；其余步骤为同串标题）
 
+### @awangev8：Codex 剪视频省 token：2 分钟片额度 10%→3%
+
+**核心提炼**
+- 解决什么问题：用 Codex 这类 coding agent 剪视频，token 烧得快——作者实测一条 2 分钟视频原来耗掉 10% 额度，优化流程后从 0 重剪同一条只用了 3%，省 token 的关键是少返工。
+- 核心用法（4 步做 skill + 3 个省额度技巧）：1) 做 skill 四步：把同行视频发给 AI 拆解、按同行结构完整跑一遍自己想要的视频 → 2) 人工给优化建议，让 AI 按建议改 → 3) 流程跑顺后让 AI 把过程整理成 skill 文件，随时可复用 → 4) 新开对话按 skill 规则测试，没问题就定稿、有问题微调规则；省额度三招：① 容易出错的环节改人工确认——AI 写好稿子先弹出来人工改、确认素材能用再合并剪辑，宁可人工卡两道也不返工；② 先剪 10 秒小样片验证 skill，没问题再剪完整视频；③ 不同动作用不同模型：作者的分工表为首次拆解同行视频、完整跑通一遍用 GPT-6 Astra（约 43）、按人工反馈做复杂优化和多步骤修改用 GPT-5.6 Sol（约 17）、把跑通流程整理成 Skill 用 GPT-5.5（25）、用 Skill 新开对话测试、生成口播/分镜/制作方案用 GPT-5.6 Terra（10）、批量整理与简单分类检查用 GPT-5.6 Luna（1），真正裁切、拼接、渲染交给固定剪辑工具或脚本、不耗模型额度。
+- 什么时候用 / 常见坑：用 Codex/Claude 这类 agent 按 skill 批量剪视频、额度吃紧时用；作者仅 9 粉丝新号、模型名与额度数字均为作者自述（"GPT-6"等型号未独立核实），方法本身可直接照搬验证；浏览器版所称"ffprobe 提前提取文字、faster-whisper 字幕、edge-tts 配音"等内容在 API 原文未见，不采用。
+
+**适用场景**：用 coding agent 批量剪口播/短视频、额度预算紧张的个人创作者与小团队。
+
+**怎么用它搞钱**：把"skill + 人工确认点 + 模型分工"做成剪辑代工 SOP，按条收费时额度成本直接决定利润。
+
+**来源**：[@awangev8 原帖](https://x.com/awangev8/status/2124824280085000515)（2026-11-23 19:16，经 fxtwitter API 核验）
+
+### AI 商业广告片全流程 5 步：没有摄制组也能接单（@Gablego）
+
+**核心提炼**
+- 解决什么问题：一个人、一台电脑想接 AI 商业广告单，但不知道从哪下手、返工不断——这篇长文以 30 秒广告片、一周交出能播成片为例，把流程拆成 5 步：立意→分镜→AI 生图生视频→配音配乐→剪辑交付，核心是"客户买的不是片子，是结果"。
+- 核心用法（5 步）：1) 编导立意：先想清三个问题——卖什么（15 秒片只能讲一个卖点）、给谁看（白领与大学生的画面文案音乐完全不同）、看完做什么（进店/扫码/记住品牌），写成一句话立意；2) 分镜脚本：每镜写清画面、镜头运动、文案/旁白、时长、音效五件事，15 秒片 3–5 个镜头就够，例 0–3 秒杨梅落冰特写配旁白"现熬杨梅"+冰块碎裂声、3–8 秒摇茶推近"当天现做，不隔夜"、8–15 秒举杯阳光中出品牌名和地址"下午三点，来一杯"；3) 先定关键帧再图生视频：先用生图工具出每镜关键帧确认构图色彩产品样子，再图生视频，工具 Runway/Kling（电影感镜头运动）、即梦（快速出图、中文提示词友好）、海螺（人物特写与产品细节多跑几版）；一致性三法：同一张产品图做参考、提示词写死颜色形状文字、固定提示词模板只换画面内容；画面求稳求统一、不求每镜惊艳；4) 配音配乐：旁白 15 秒≤20 字、30 秒≤45 字，ElevenLabs 或真人配音，音乐用正版库或 AI 生成、无版权侥幸；5) 剪辑交付：按分镜时长卡点、切换踩音乐鼓点、字幕只放关键词、结尾 3 秒留给品牌名+行动指令，工具 CapCut/剪映为主、精细调色混音再上 Premiere；横 16:9、竖 9:16，15/30/60 秒各一版一次交齐；分阶段确认：关键帧先发客户确认产品样子与风格、粗剪先发确认节奏与文案，都确认了再精修。
+- 什么时候用 / 常见坑：接本地小店/中小品牌 AI 广告单时用；作者冷思考：AI 降低了门槛也拉高了标准，拼的是审美、理解力与交付能力；需要真人出镜、复杂剧情、精确还原产品细节的单子 AI 目前搞不定，接单前先判断能不能做、不能做坦白说；全文为 Article（经 fxtwitter API 直读全文核验）。
+
+**适用场景**：想接 AI 广告片单的自由职业者与小工作室；给本地门店做短视频广告的创作者。
+
+**怎么用它搞钱**：按"15 秒片免费样片→店主认可→按 15/30/60 秒三版收费"接单；或把"立意+分镜五要素+一致性三法"做成广告片接单 SOP 卖给同行。
+
+**来源**：[@Gablego 原帖](https://x.com/Gablego/status/2124831691445522669)（2026-11-23 19:45，所链 Article 全文经 fxtwitter API 直读核验）
+
+### 免费 AI 创作工作流 10 步工具栈：从想法到爆款视频（@Emery_Coleman_0）
+
+**核心提炼**
+- 解决什么问题：一个人、零预算想从想法做到爆款视频，不知道每步用什么免费工具——这帖给了一张 10 步全免费工具栈清单，按"调研→脚本→配音→音频清理→缩略图→视频生成→音乐→剪辑→切片→SEO"排好，每步只配一个工具。
+- 核心用法（10 步）：1) 调研与选题：Perplexity AI（免费，实时、带来源）；2) 写脚本：ChatGPT（免费，高留存钩子、大纲与完整脚本）；3) 配音：ElevenLabs（免费档，拟真配音、声音克隆与配音）；4) 音频清理与母带：Audio Forge Pro（作者称 100% 免费、17 个浏览器工具：AI 静音移除、LUFS 响度标准化、自动闪避、背景音乐移除与音效，本机处理、零上传）；5) 缩略图：Canva（免费，高点击率缩略图与 Shorts 封面）；6) AI 视频生成：Kling AI（免费额度，电影感生成与运镜控制）；7) 音乐与 BGM：Suno（免费每日额度，定制无版权背景音乐）；8) 剪辑：CapCut（免费，时间线剪切、关键帧、特效、自动字幕）；9) 短视频切片：Vizard AI（免费档，长视频自动切 Shorts/Reels）；10) SEO 与增长：vidIQ（免费，关键词需求、标题打分、竞品追踪）。
+- 什么时候用 / 常见坑：零预算起号、想快速搭一套"想法→成片→发布"免费链路时用；本条为工具清单帖、非深度教程，链接在首条回复（未逐条打开核验），各工具免费档额度以官网为准；Audio Forge Pro 为作者说法、未独立核实。
+
+**适用场景**：零预算起 AI 视频号的新手；想给学员一张"每步用什么"对照表的剪辑教学者。
+
+**怎么用它搞钱**：按这套免费栈接"AI 视频号起号代运营"——工具零成本，收的是流程与执行费；或把 10 步栈做成新手训练营讲义。
+
+**来源**：[@Emery_Coleman_0 原帖](https://x.com/Emery_Coleman_0/status/2124846981436805520)（2026-11-23 20:46，经 fxtwitter API 核验）
+
+### 7 个 Claude 提示词之第 7 条：每周视频生产系统（@PrincePraj57393）
+
+**核心提炼**
+- 解决什么问题：每个视频都当独立项目从头做，越做越累、质量还不稳——这条串帖的第 7 个 Claude 提示词是把"每周生产"本身变成系统：让 Claude 按你的赛道、受众、周产量、可用时间、剪辑软件与设备，设计一套 7 天 TikTok 生产系统。
+- 核心用法（提示词让 Claude 输出 4 样东西）：1) 七日生产流程：覆盖选题与内容调研、脚本与钩子、批量拍摄与镜头准备、B-roll 收集与素材整理、剪辑顺序与可复用模板、字幕/品牌化与质检、排期发布与表现复盘，配每天的时间分配；2) 两张清单：一张剪辑前清单、一张标准剪辑清单；3) 文件命名与素材组织系统；4) 简易内容表现追踪器，外加减少重复劳动的建议；填空项为赛道、目标受众、每周视频数、可用制作小时、剪辑软件、设备、内容支柱、现有素材。
+- 什么时候用 / 常见坑：单人周更、想从"想到哪拍到哪"升级成固定节奏时用；本条为 7 条串帖中的第 7 条（前 6 条未在本档核验范围），提示词原文较长、本条只提炼结构与输出物，未全文照抄；作者 929 粉丝，方法为通用生产管理框架、未附实测数据。
+
+**适用场景**：单人周更 TikTok/短视频、想固定"选题→拍摄→剪辑→发布"节奏的创作者。
+
+**怎么用它搞钱**：把这套每周生产系统做成代运营 SOP，按周接"批量出片"单；或把清单与追踪器模板打包卖给起号学员。
+
+**来源**：[@PrincePraj57393 原帖](https://x.com/PrincePraj57393/status/2124843768268673506)（2026-11-23 20:33，经 fxtwitter API 核验；为 7 条串帖之第 7 条）
+
+### WorkBuddy 模板剪辑实测：口播 33 积分/54 分钟一次出片（@Miracleeliu）
+
+**核心提炼**
+- 解决什么问题：AI 剪辑不稳定——只想改一处，下一版连满意的地方也跟着变，代码生成来回调几轮跟抽卡似的——这篇实测的解法是"先挑模板再填内容"：像选 PPT 模板一样先定样子，再把内容套进去，两条视频都一次出片、可稳定产出。
+- 核心用法（两条实测）：1) 真人出镜口播：定位提示词→定位卡（身份经验、讲给谁、卡住的具体问题、能提供的方法、发哪个平台、看完做什么，输出"我用帮解决"一句话定位，缺材料要标出来、不编经历）；同对话生成可直接念的台词（只讲一个具体问题、开头直接给有依据的结果或具体问题、短句分段、中间一个办法配真例子、结尾一个可照做的动作，另单列拍摄备注）；拍摄：手机竖放、看镜头、脸朝光、按聊天语速一次录一两句、错了只重说那句；开拍免费剪辑初剪、几秒去掉语气词与重复话；模板剪辑：让 WorkBuddy 按内容推荐模板下载，把初剪视频+字幕+素材交给它，用"活力海报.motion"模板重包装（提示词含口播素材.srt/.mp4，可补免费素材、图片、BGM、动效贴纸），改动直接说给 AI 或在剪映多轨草稿里改；结果：一次出片，33 积分，54 分钟；2) 公众号文章转视频：提示词写清横/竖屏、把文章原文发给 WorkBuddy 改成视频脚本 → 引导声音克隆、按脚本生成旁白+SRT → 顺脚本过一遍镜头核对画面 → 脚本+配音+字幕交给 WorkBuddy，用"点阵手账"模板出片（提示词含旁白.mp3/.srt、脚本.md、旁白.txt），同时要剪映草稿多轨道项目包与完整视频；结果：耗时 1.7 小时（约 1 小时 41 分钟）、37.46 积分，主要时间是渲染、作者称 10 年老电脑跟不上。
+- 什么时候用 / 常见坑：不会剪辑、想让 AI 按固定模板稳定出片时用；积分与耗时为作者自述、未独立实测；与早档 @XuShifu100 的 Codex+WorkBuddy 条目工具重合，但本条为另一作者的独立实测长文（定位→台词→模板两条线），内容不重复；全文为 Article（经 fxtwitter API 直读全文核验）。
+
+**适用场景**：有口播或旧文章、想"一篇多吃"批量转视频的个人创作者；帮客户把存量内容转成短视频的代运营。
+
+**怎么用它搞钱**：接"旧文转视频/口播模板化出片"代工——按"定位→台词→模板"打包按条收费，模板复用后边际成本递减。
+
+**来源**：[@Miracleeliu 原帖](https://x.com/Miracleeliu/status/2124762696398852177)（2026-11-23 15:11，所链 Article 全文经 fxtwitter API 直读核验）
+
+### 自动剪辑验收标准：交回来的得是可继续编辑的工程（@realJustinSoong）
+
+**核心提炼**
+- 解决什么问题：自动剪辑交回来的成片看着对，但想改一句字幕、换一个素材就得全部重来——这条回复给了一个验收标准：别只看成片，先看交回来的是不是可继续编辑的工程。
+- 核心用法（4 条验收点）：1) 验收先看工程、再看成片：成片对只是第一步；2) 三个必须能接着改的点：字幕、素材路径、裁剪点——重新打开后还能接着改，才算合格；3) 目的：改完的工程要能直接放进后面的制作流程，而不是一次性的死文件；4) 只给一个导出文件不行：能接手的余地少很多，后续每改一次都要重跑，等于把省下的时间又还回去。
+- 什么时候用 / 常见坑：选自动剪辑工具、验收 AI 剪辑外包成片时用；本条为回复 @LenardReads 的观点帖（原则型，无操作步骤与实测数据），与午档 @Moonquakes_ai 的留白原则帖同类；作者为 Breatic 开发者。
+
+**适用场景**：采购或验收自动剪辑工具/外包成片的团队；把 AI 剪辑接进已有制作流程的剪辑师。
+
+**怎么用它搞钱**：接"自动剪辑+工程交付"——报价时把"可编辑工程"写进交付标准，比只交成片的对手多一档收费理由。
+
+**来源**：[@realJustinSoong 原帖](https://x.com/realJustinSoong/status/2124841292412960957)（2026-11-23 20:23，回复 @LenardReads，经 fxtwitter API 核验）
+
+### OpenScreen：录屏后删字幕句子就能剪掉对应画面（@octopusaia）
+
+**核心提炼**
+- 解决什么问题：录口播/教程/演示最烦每个环节都要开会员——OpenScreen 是免费开源的录屏+轻剪工具：录完在编辑器里删字幕句子，就能剪掉对应画面，适合直接剪成产品演示。
+- 核心用法（4 步）：1) 安装一行命令：Mac 跑 `brew install --cask openscreen` 或去 GitHub Releases 下.dmg 拖进应用程序；Windows 跑 `winget install --source msstore OpenScreen`；Linux 下 Releases 里的.deb 跑 `sudo apt install./Openscreen-Linux-*.deb`；2) 打开选屏幕点录制，免费无水印、GPU 加速，Win/Mac/Linux 通用；3) 录完在编辑器里删字幕句子剪掉对应画面，一键换整支片子的样式；4) Mac 15 以后系统会隔一阵再问一次录屏权限，点允许即可、不是装坏了。
+- 什么时候用 / 常见坑：录口播、教程、产品演示、想"删字改片"式粗剪时用；仓库 getopenscreen/openscreen 当日 GitHub API 核验 ⭐7,883、MIT、最近推送 2026-11-23；同帖另有 HyperFrames（导演库已有、剪辑库 marovole 条目内已提及）与 MCP for Blender（3D 建模、类目外），本条只收 OpenScreen。
+
+**适用场景**：录口播/教程/演示的个人创作者；想免费录屏+轻剪一体的小团队。
+
+**怎么用它搞钱**：接"录屏教程代剪"——按"录完删字成片"报价，突出当天可交付；或把 OpenScreen 纳入录播课制作流程降成本。
+
+**来源**：[@octopusaia 原帖](https://x.com/octopusaia/status/2124835605536297134)（2026-11-23 20:01，经 fxtwitter API 核验）· 仓库 [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) · ⭐7,883 · MIT · 最近推送 2026-11-23（GitHub API 核验）
+
+## 拟追加的更新日志行（发布时写入 README 更新日志区，commit 占位先写待补正）
+
+- 2026-11-23：晚档新增 7 条（X 7 条：Codex 剪视频省 token 2 分钟片 10%→3% / AI 商业广告片全流程 5 步（Article 全文直读） / 免费 AI 创作工作流 10 步工具栈 / 7 个 Claude 提示词之第 7 条每周视频生产系统 / WorkBuddy 模板剪辑实测：口播 33 积分/54 分钟、文章转视频 1.7 小时（Article 全文直读） / 自动剪辑验收标准：可继续编辑的工程 / OpenScreen 录屏删字幕句子剪画面；7 帖正文与时间戳均经 fxtwitter API 逐条直读核验（@Gablego 与 @Miracleeliu 两篇 Article 全文直读）；浏览器报告偏差已按 API 原文纠正（@awangev8 的 ffprobe/faster-whisper/edge-tts 模型分工表在 API 原文未见不采用，以原文 4 步 skill 流程 + 3 个省额度技巧 + 模型分工表为准；@HeyThani 视频时长为 48 秒非 41 秒）；去重：@tantanyuli Concat 与 @Manorgw OpenMontage 库内已有不重复计（Concat 帖称 1.1K★ 与 API 核验 19,765★ 不符，以 API 为准）；@wherecall1 与 @lunacansay 的 autoclip 与流水线库同产品不重复计（该仓当日 API 核验 ⭐14,115 MIT，较午档 13,789 上涨）；剔除：@Aygramm_ Pollo MCP（付费合作、正文未展开步骤、方法只在视频里）；@yyw2026 loudnorm -16 LUFS（单句技巧、ffmpeg 命令正文未贴出）；@arito_si Pixels 4.0 YouTube 出海指南（运营漂移，剪辑仅一句话）；@HeyThani 14 仓剪辑合集（仅点名 5 个、无仓库链接，Video Use 与 Auto Editor 库内已有，Claude Eyes/Take One/DaVinci Resolve MCP 无法从帖子确认具体仓库）；仓库星数与许可经 GitHub API 核验（getopenscreen/openscreen ⭐7,883 MIT；jub0t/Concat ⭐19,765 AGPL-3.0、较 11-10 的 16,192 上涨；OpenMontageInc/OpenMontage ⭐82,591 AGPL-3.0、较早档 82,418 上涨；zhouxiaoka/autoclip ⭐14,115 MIT）；另刷新库内 Concat 与 OpenMontage 两条目星数；10 组关键词×Latest，登录态正常、全程只读无互动、未遇真人验证；覆盖至约 21:17，之后新帖不在本次范围；commit：待补正）
+
+## 核验备注（不写入 README，仅供主 agent 复核）
+
+- 浏览器任务 2026-11-23 06:58–07:18 CST（美中）运行，覆盖至约 21:17 北京；15 条命中全部经 fxtwitter API 直读核验，时间均为 UTC+8 换算后。
+- @HeyThani 帖候选仓库（未收录、供明早 GitHub 档核查）：moritzkremb/claude-eyes 136★（描述"Let coding agents watch videos"，当日有推送）、samuelgursky/davinci-resolve-mcp 4,304★（当日有推送）；Take One 未搜到可信仓库。帖子本身无链接，以上仅为按名搜索的推测，不可直接当作出处。
+- 远端基线（发布前核验）：剪辑库最新 commit 72a333c2、README 115 条目小节、blob sha a8aceeee04c224e3d33102e676122d50cd662f99、1609 行；发布后应为 122 条目。
+- 发布时另需同步改两处星数：Concat 条目（⭐16192→⭐19765，最近推送 2026-11-10→2026-11-23）、OpenMontage 条目（⭐82,418→⭐82,591）。
+
 ## 相关分类
 
 - 总索引：[x-viral-video-skills](https://github.com/kkone1238899/x-viral-video-skills) —— 13 个分类导航
@@ -1607,3 +1709,4 @@
 - 2026-11-10：晚档新增 20 条（X：AI 音乐 MV 工作流：先做歌再拆视觉最后剪辑卡点 / Opus 5.5 + Fable 5.2 + Lemo-Opuscar 自媒体内容生产系统 / AI 数字人短视频代做 99 元一条 / ChatCut + Codex 两份实测：粗剪快成片贵 / claude-video-editing 剪口播长视频规范 / AI 剪辑两条路线 / Paper Reel 剪纸风科普视频 Skill / Fable 5.2 剪英语短视频 / 同提示词双模型对照：Fable 5.2 vs GPT 6.1 Sol / Opus 5.5 xhigh ultracode + Blender 代码剪辑（边界）/ 11 个免费开源仓库拼成完整视频剪辑流 / Fable 5.2 动态设计专辑 17 个仓库 / Opus 5.5 Max 一人拍 29 分钟黏土风短片（边界）/ Muse 球赛精彩回合智能粗剪 / Nuzky 口播补录按词返工 / Timeline Studio 可编辑节拍模板 / valorant-ai-clip-editor 游戏高光自动剪辑 / lanshu 数字人口播自动化 / Klap API 实测 $1.56 / Claude AI + AudLabs MCP 剪纪录片（边界）；20 帖正文与时间戳均经 fxtwitter API 核验，浏览器报告多处与 API 原文不符已按 API 修正（@hetzerLin 的 Fable/Opus 分工写反与 Style 提示词、@marovole 的 11 仓库清单错写成 17 仓库并添造实测数字、@herozhd77 的"音乐自动卡点 / 20 万 Star"、@7998l201 的 astats 与 scene_utils 命令及"最低分数 8.0"等、@Sponge51522 的"收益与流量再分配"转述、@OkaTakuma1 的"縦型動画のクロップと再配置"）；仓库星数与许可经 GitHub API 核验（lemo-opuscar ⭐14,317 MIT、claude-video-editing ⭐18 MIT、paper-reel ⭐130 MIT、nuzky ⭐24 GPL-3.0、valorant-ai-clip-editor ⭐179 MIT、lanshu ⭐2,943 MIT、ai-video-editor ⭐961 MIT；marovole 11 仓与 0xsoul 17 仓星数逐项核验）；另补充早档 X 原生 Clip 条目（@xiax0603 功能双刃剑拆解 + @Sponge51522 算法 / 生态视角 + @lilimg4614 收益门槛，不另计条）；排除：@forrestbit 家庭短剧（短剧导演漂移）、@Gerry1723625 AutoClip（已在流水线库）与 Toonflow（短剧平台漂移）、@UPing123zzz dsh-media-desk（自媒体工作台漂移）、@lijiankuan DeepSeek Harness 剪视频插件（无方法细节）、@baike888 SeedDance 导演提示词 v5.1（导演类目漂移）、@aiaicreate CapCut 自动化工具（工具名 / 链接未给出））
 - 2026-11-23：早档新增 8 条（X 6 条：18 仓拼 GTA VI 游戏剪辑流水线 / 本地短视频外包半小时批量出 3–5 条 + 包月 1,980 元 / OpenMotion 参考视频逆向复刻转场重建 / wallstreet-explainer 一个选题自动剪出华尔街式财经解说片 / Codex 规划 + WorkBuddy 执行双模型分工 + 踩坑帖 / video-autopilot-kit 剪辑方法论 + 自动化流程 + 质量检查全开源；GitHub 2 个项目：praseesh369/youtube-ai-video-editing-system / dean9703111/auto-edit-workspace；6 帖正文与时间戳均经 fxtwitter API 核验（XuShifu100 踩坑自回复同串直读）；去重：KOF97AI 18 仓与 11-22 晚档导演库 13 仓重合跨库去重、@ohyeahx1 VEED agent 仅功能清单无步骤、@Stanllll6o OpenMontage 库内已有均不重复计；仓库星数与许可经 GitHub API 核验（nexu-io/openmotion ⭐15,338 Apache-2.0、HeyChengC/wallstreet-explainer ⭐832 暂无 LICENSE、Hao0321/video-autopilot-kit ⭐2,350 MIT）；另刷新 OpenMontage 星数 79,214→82,418；浏览器报告 9 条命中时间均与 API 原文一致，无偏差；X 搜索 until 日期过滤不可靠、窗口前半段（11-10–11-21）首屏未见符合标准新帖，存在漏检可能；覆盖至约 09:10，之后新帖不在本次范围；commit：73420b4f)
 - 2026-11-23：午档新增 10 条（X 10 条：APOB × Seedance 2.5 三十秒连续故事工作流（Article 全文直读） / ChatGPT + CapCut 口播剪辑 / raea 代码驱动本地 GPU 渲染 / browser-use/video-use Agent 按日常语言剪出 MP4 / ChatCut 拆片 + 字幕 A/B 对照教程（Article 全文直读） / Linnea 代码视频人工微调闭环 / 自动剪辑留存白判断原则 / 三 AI 分工 + 人工抠帧边界 / DaVinci Resolve 渲染脚本自动化（边界） / ChatGPT 六步零剪辑基础工作流；12 帖正文与时间戳均经 fxtwitter API 逐条直读核验（@Eileeness160708 与 @apob_ai 所链 Article 全文分别经 fxtwitter API 与 live browser 直读）；浏览器报告偏差已按原文纠正（@apob_ai 钩子帧与参考表提示词实为鱼形糕点生存故事、非书桌整理，浏览器版“近 50% 返工”“最弱画面标为新原点”原文未见不采用；@Eileeness160708 分镜时间码以 Article 原文 0.00–3.12/3.12–5.00/5.00–12.00/12.00–14.56/14.56–18.00 为准，2.08 秒核查点为字幕位置对照非“声音比动作先 0.1 秒”；@shenxiankk “多智能体并行做动画、生成 EDL”为评论区说法、原帖正文未写不采用；@GtfCyres 本帖仅第 5 步，其余步骤为同串标题）；去重：@xqliu AutoClip 与流水线库 zhouxiaoka/autoclip 条目同产品不重复计（该仓当日 API 核验 ⭐13,789 MIT，较 11-16 的 10,518 上涨）；剔除：@swordBluesy Gemini 一句话生成视频（生成侧、类目漂移）；仓库星数与许可经 GitHub API 核验（shinyobjectz/raea ⭐4,460 FSL-1.1 非开源许可、browser-use/video-use ⭐31,465 MIT、emircesur/Linnea ⭐79 MIT）；8 组关键词×Latest，登录态正常、全程只读无互动、未遇真人验证；覆盖至约 15:05，之后新帖不在本次范围；commit：b965bb19)
+- 2026-11-23：晚档新增 7 条（X 7 条：Codex 剪视频省 token 2 分钟片 10%→3% / AI 商业广告片全流程 5 步（Article 全文直读） / 免费 AI 创作工作流 10 步工具栈 / 7 个 Claude 提示词之第 7 条每周视频生产系统 / WorkBuddy 模板剪辑实测：口播 33 积分/54 分钟、文章转视频 1.7 小时（Article 全文直读） / 自动剪辑验收标准：可继续编辑的工程 / OpenScreen 录屏删字幕句子剪画面；7 帖正文与时间戳均经 fxtwitter API 逐条直读核验（@Gablego 与 @Miracleeliu 两篇 Article 全文直读）；浏览器报告偏差已按 API 原文纠正（@awangev8 的 ffprobe/faster-whisper/edge-tts 模型分工表在 API 原文未见不采用，以原文 4 步 skill 流程 + 3 个省额度技巧 + 模型分工表为准；@HeyThani 视频时长为 48 秒非 41 秒）；去重：@tantanyuli Concat 与 @Manorgw OpenMontage 库内已有不重复计（Concat 帖称 1.1K★ 与 API 核验 19,765★ 不符，以 API 为准）；@wherecall1 与 @lunacansay 的 autoclip 与流水线库同产品不重复计（该仓当日 API 核验 ⭐14,115 MIT，较午档 13,789 上涨）；剔除：@Aygramm_ Pollo MCP（付费合作、正文未展开步骤、方法只在视频里）；@yyw2026 loudnorm -16 LUFS（单句技巧、ffmpeg 命令正文未贴出）；@arito_si Pixels 4.0 YouTube 出海指南（运营漂移，剪辑仅一句话）；@HeyThani 14 仓剪辑合集（仅点名 5 个、无仓库链接，Video Use 与 Auto Editor 库内已有，Claude Eyes/Take One/DaVinci Resolve MCP 无法从帖子确认具体仓库）；仓库星数与许可经 GitHub API 核验（getopenscreen/openscreen ⭐7,883 MIT；jub0t/Concat ⭐19,765 AGPL-3.0、较 11-10 的 16,192 上涨；OpenMontageInc/OpenMontage ⭐82,591 AGPL-3.0、较早档 82,418 上涨；zhouxiaoka/autoclip ⭐14,115 MIT）；另刷新库内 Concat 与 OpenMontage 两条目星数；10 组关键词×Latest，登录态正常、全程只读无互动、未遇真人验证；覆盖至约 21:17，之后新帖不在本次范围；commit：待补正）
