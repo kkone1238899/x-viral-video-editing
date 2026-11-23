@@ -523,7 +523,7 @@
 
 **怎么用它搞钱**：接"AI 剪辑代工"——按"大白话需求→成片"打包按条收费；或拿爆款改编方案给客户做选题服务。
 
-**来源**：[@Chenfacai0 原帖](https://x.com/Chenfacai0/status/2120044786300178835)（2026-11-10 14:44，经 fxtwitter API 核验）· 仓库 [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐79,214 · AGPL-3.0 · 最近推送 2026-11-10（GitHub API 核验；原帖链接 github.com/calesthio/OpenMontage 已重定向至此）
+**来源**：[@Chenfacai0 原帖](https://x.com/Chenfacai0/status/2120044786300178835)（2026-11-10 14:44，经 fxtwitter API 核验）· 仓库 [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) · ⭐82,418 · AGPL-3.0 · 最近推送 2026-11-16（GitHub API 核验；原帖链接 github.com/calesthio/OpenMontage 已重定向至此）
 
 ### WorkBuddy 复刻 Vibe 知识大赏：不会剪辑也能出代码动画知识片（@jungeAGI）
 
@@ -1337,6 +1337,111 @@
 
 **来源**：[tosind/video-editing-prompts-and-skills](https://github.com/tosind/video-editing-prompts-and-skills) · ⭐0（新仓）· MIT · 最近推送 2026-11-06（GitHub API 核验，README 与 PROMPTS.md 已读；经 @vdavi_d 帖引入）
 
+### @hasibdreamer35：18 个开源仓库拼一条 GTA VI 游戏剪辑流水线
+
+**核心提炼**
+- 解决什么问题：游戏直播/录播素材想批量剪成 Reels、TikTok、Shorts 爆款切片，但高光定位、追踪、字幕、降噪、压缩每步都要换工具——作者把 18 个开源仓库按剪辑链路排成一条流水线。
+- 核心用法（链路 7 步）：1) 录制/下载：OBS 录制实况、yt-dlp 下载素材 → 2) 找高光：Clipper 自动提取高光片段、Hypeline 检测高潮时刻、TransNet V2 做场景检测 → 3) 视觉处理：OpenCV 做视频处理与追踪、YOLO + ByteTrack 做目标检测与追踪 → 4) 剪辑：OpenCut 上时间线剪辑、AutoCut 按文稿剪辑、Revideo 程序化剪辑 → 5) 声音：sherpa-onnx 语音识别、RNNoise 降噪、Pedalboard 音频处理 → 6) 字幕：Captacity 自动上字幕、VideoLingo 翻译字幕 → 7) 导出：VidGear 采集与处理、HandBrake 压缩出片；总链路：直播流 → 检测高光 → 提取片段 → 重构画幅 → 字幕 → 剪辑 → 导出。
+- 什么时候用 / 常见坑：游戏切片、直播高光批量出片时按链路取工具；帖子本身为工具链清单，未附实测过程与成片；作者在评论区自述尚未实测（浏览器侧读取），照搬前先单步验证；OpenCut、HandBrake 库内已有，不重复计。
+
+**适用场景**：做游戏切片、直播高光、竖屏短视频批量生产的创作者与代运营。
+
+**怎么用它搞钱**：接"游戏直播高光切片代剪"——按"直播流→高光→切片→字幕→导出"打包按条收费；或把这条链路做成游戏主播的日常切片服务。
+
+**来源**：[@hasibdreamer35 原帖](https://x.com/hasibdreamer35/status/2124658821029351715)（2026-11-23 08:18，经 fxtwitter API 核验）
+
+### @XiaosaGe1231：本地短视频外包——半小时批量出 3–5 条，包月 1,980 元
+
+**核心提炼**
+- 解决什么问题：本地装修公司、二手车行、教培机构每天要在抖音/视频号发视频获客，但自己不会拍、请全职剪辑又贵——作者给出一条"不拼大片质感、拼交付速度"的本地外包路子。
+- 核心用法：1) 找客户：本地装修、二手车、教培这类每天要发视频获客的老板；2) 交付标准：不要大片质感，只要画面清晰、节奏快、能把卖点讲明白；3) 生产：用圈里已跑通的开源视频工作流 + 本地加速节点，老板发几张实拍图 + 几行大白话卖点，半小时批量出 3–5 条带配音、带字幕的成片；4) 收费：推"包月短视频托管"，如 1,980 元包月出 15 条成片；5) 续单：先把老板个人 IP 账号跑起来，帮他从同城引来两个咨询客户，单子就能一直续下去。
+- 什么时候用 / 常见坑："半小时 3–5 条""比传统外包快十倍""成本几乎为零"与 1,980 元定价均为作者举例/自述，未独立核实；开源工作流与加速节点未在帖内点名，用前先自己跑通；本地获客拼的是交付与续单，不是单条爆款。
+
+**适用场景**：想接本地商家短视频代运营、有 AI 剪辑工作流的个人与小团队。
+
+**怎么用它搞钱**：按作者路子直接卖"包月短视频托管"——1,980 元/月 15 条起步，靠同城引流效果续单。
+
+**来源**：[@XiaosaGe1231 原帖](https://x.com/XiaosaGe1231/status/2124667145724588457)（2026-11-23 08:51，经 fxtwitter API 核验）
+
+### OpenMotion：给参考视频，AI 拆解镜头、复刻转场并重建动画（@Stanllll6o）
+
+**核心提炼**
+- 解决什么问题：看到爆款短视频的框架想复刻，但逐帧拆镜头、扒转场、重建动效全靠手——OpenMotion 让 AI 先把参考视频拆开，再按拆出来的结构重建一版能二次编辑的工程。
+- 核心用法：1) 上传参考视频，AI 自动拆镜头、分析节奏与转场并重建；2) 代码化剪辑：底层基于 HTML、CSS、JavaScript 构建动态场景，可直接导出 MP4；3) 支持 Claude Code、Codex、WorkBuddy 等 22 种 Agent 调度；4) 内置 300+ 个 Motion.md 指南，覆盖常见特效与动效结构；5) 支持接入生图、视频、音乐及配音 API；6) 纯开源、本地运行、BYOK（自带 API Key），无订阅费与云端渲染抽成。
+- 什么时候用 / 常见坑：复刻爆款短视频框架、或用自家品牌素材批量重做海外社媒视频时用；"复刻转场"的效果取决于参考视频的复杂度与模型能力，帖内未附实测对比，用前先拿一条爆款跑通；与库内 nexu-io/open-design 同作者团队（nexu-io），各司其职不重复。
+
+**适用场景**：做爆款框架复刻、品牌素材批量翻新、海外社媒矩阵的创作者与代运营。
+
+**怎么用它搞钱**：接"爆款框架复刻代做"——客户给参考视频，按拆解重建的工程收费；或给品牌做海外社媒素材批量翻新。
+
+**来源**：[@Stanllll6o 原帖](https://x.com/Stanllll6o/status/2124596466064974200)（2026-11-23 04:10，经 fxtwitter API 核验）· 仓库 [nexu-io/openmotion](https://github.com/nexu-io/openmotion) · ⭐15,338 · Apache-2.0 · 最近推送 2026-11-23（GitHub API 核验）
+
+### wallstreet-explainer：一个选题自动剪出华尔街式财经解说片（@Bengz168）
+
+**核心提炼**
+- 解决什么问题：财经/科技解说视频最折磨人的不是写稿，而是后期——找外媒新闻截图、荧光笔高亮、人物抠像、K 帧做动态图表，再配"金色大数字"与镜头推拉；5 分钟高级感视频自己剪要熬两个通宵，外包动辄大几千。
+- 核心用法：1) 只给一个选题，Skill 全包：写文案、搜新闻素材、截证据画面、配音、直接剪辑成片；2) 最耗时的视觉包装自动生成：金色大数字、动态图表、人物抠像、新闻高亮、运镜；3) 四种模式：横屏/竖屏 × 真人口播/无人出镜，覆盖 B 站、YouTube 长视频与抖音/小红书竖屏矩阵。
+- 什么时候用 / 常见坑：做财经、科技解说类账号时用；仓库 HeyChengC/wallstreet-explainer 当日 API 核验 ⭐832、暂无 LICENSE、最近推送 2026-11-20，商用前先确认授权；"两个通宵""大几千"为作者说法，成片质量以仓库样片为准。
+
+**适用场景**：做财经/科技解说、想批量出"高级感"解说片的创作者与代运营。
+
+**怎么用它搞钱**：接"财经解说片代制作"——按"选题→成片"打包收费；或用四种模式给客户做横竖屏矩阵账号。
+
+**来源**：[@Bengz168 原帖](https://x.com/Bengz168/status/2124667264842817646)（2026-11-23 08:52，经 fxtwitter API 核验）· 仓库 [HeyChengC/wallstreet-explainer](https://github.com/HeyChengC/wallstreet-explainer) · ⭐832 · 暂无 LICENSE · 最近推送 2026-11-20（GitHub API 核验）
+
+### @XuShifu100：Codex 规划 + WorkBuddy 执行，双模型分工跑通剪辑流水线
+
+**核心提炼**
+- 解决什么问题：单个 AI 跑全流程总返工——执行能力强的工具不会自己琢磨模糊需求，擅长拆解逻辑的模型又不适合直接干重活；作者的解法是把"出主意、动手干、挑毛病"彻底解耦。
+- 核心用法（三步闭环）：1) 派活：用大白话把想法丢给 Codex（规划与质检层），要求它输出标准执行方案文件，写清目标、拆解步骤、每步专用 Prompt 与最终验收标准；2) 干活：把方案文件扔进 WorkBuddy（执行层）的工作空间，让它照单执行，挂载的 Skill 自动接力产出成片与自检报告；3) 回传验收：绝不让干活的模型给自己打分——把成片与自检报告传回 Codex 挑刺，让它直接修订出问题环节的 Prompt，再丢回 WorkBuddy 重跑。
+- 踩坑经验（同串自回复）：方案里不写死单步字数与输出格式，WorkBuddy 易在写稿环节擅自发挥，导致后续配音与剪辑节点对不上轴；常见卡点是需求拆解不够细、或不同 Skill 交接时丢上下文。
+- 什么时候用 / 常见坑：多模型自动流、剪辑流水线总返工时用；"规划-执行-验收"分工本身可迁移到任意双模型组合，不必绑定 Codex/WorkBuddy；作者自述跑通，未附成片验收数据。
+
+**适用场景**：用多模型搭剪辑/出片流水线、总被返工拖住的创作者与小团队。
+
+**怎么用它搞钱**：把"规划-执行-验收"三步闭环做成代运营的标准交付流程——一次搭好方案模板，多客户复用，按月收流水线维护费。
+
+**来源**：[@XuShifu100 原帖](https://x.com/XuShifu100/status/2124571203197337782)（2026-11-23 02:30，经 fxtwitter API 核验；踩坑自回复同串 02:30）
+
+### video-autopilot-kit：剪辑方法论 + 自动化流程 + 质量检查全开源（@fhwofjow51260）
+
+**核心提炼**
+- 解决什么问题：学了几个剪辑技巧还是剪不稳——作者把长期积累的剪辑方法论、自动化流程与质量检查规则全部开源，变成一套可续跑、可检查的系统。
+- 核心用法：1) 接入 Claude Code、Codex，配合 Editkin 做素材分析、剪辑规划、字幕与节奏检查、视频渲染；2) 甚至能根据发布效果持续优化；3) 支持 YouTube 长视频、Shorts、Reels；4) 配图呈现三条生产线：教学长片、直式 Shorts/Reels、剧场类，每条线都是"知识库（为什么）→ 模板/技能（不靠记忆）→ Editkin 运行（执行）"；知识库文件包括脚本风格框架、留存技巧、高级动效、Shorts 精通、竖屏拆解方法、节奏场景模板。
+- 什么时候用 / 常见坑：想从"会几个技巧"升级到"有整套剪辑系统"时用；仓库 Hao0321/video-autopilot-kit 当日 API 核验 ⭐2,350、MIT、最近推送 2026-11-13；三条生产线与知识库清单为帖内配图呈现（浏览器侧读取），未逐项打开核验；Editkin 需另行安装，见仓库说明。
+
+**适用场景**：做 YouTube 长视频、Shorts、Reels，想把剪辑变成可复用系统的创作者与团队。
+
+**怎么用它搞钱**：按这套系统接"频道剪辑代运营"——方法论 + 模板 + 质检打包成月度服务；或把三条生产线拆成教学长片/竖屏短剧两类代做服务。
+
+**来源**：[@fhwofjow51260 原帖](https://x.com/fhwofjow51260/status/2124476375692407281)（2026-11-22 20:13，经 fxtwitter API 核验）· 仓库 [Hao0321/video-autopilot-kit](https://github.com/Hao0321/video-autopilot-kit) · ⭐2,350 · MIT · 最近推送 2026-11-13（GitHub API 核验）
+
+### youtube-ai-video-editing-system（praseesh369）：提词器 + 剪辑 agent + 设计板，全程留档可改
+
+**核心提炼**
+- 解决什么问题：口播视频从录制到成片，每步决定都锁在黑盒里、改不动——这个系统把剪辑当成一条可见、可检查的流水线，每步决定都落在能打开、能质疑、能改的 JSON 文件里。
+- 核心用法（5 步）：1) 录制：Eyeline 提词器跟读你的声音走词，录音、标错词、记多条 take；2) 粗剪：剪辑 agent 转录 take、估算机位同步，候选剪辑写进独立的 plan.candidate.json，原计划不动、你批准才生效；3) 设计：按批准的终剪 transcript 做设计简报，再进 HTML 设计板（排版、图表、转场均可改）；4) 动效：每块板子带 seek 函数，预览与导出同一时间戳同一帧，按旁白时间轴渲染动效；5) 交接：成片、干净 WAV、transcript、字幕与检查清单打包进固定文件夹，直接进 Resolve 或 Premiere。
+- 什么时候用 / 常见坑：Windows 10/11 + PowerShell，无需管理员权限；适合想"机器起草、人拍板"的 YouTube 口播创作者；与库内 sirioberati/YouTube-AI-Video-Editing-System 同名不同仓，本条为 praseesh369 版，选型时别混淆；作者自称 9.3 万用户，未独立核实。
+
+**适用场景**：做 YouTube 口播、知识解说，想让 AI 起草剪辑、自己保留最终决定权的创作者。
+
+**怎么用它搞钱**：接"YouTube 口播剪辑代工"——按"提词录制→候选剪辑→设计板→交接成片"打包收费；或给客户搭这套本地剪辑系统收部署费。
+
+**来源**：[praseesh369/youtube-ai-video-editing-system](https://github.com/praseesh369/youtube-ai-video-editing-system) · ⭐337 · MIT · 最近推送 2026-11-23（GitHub API 核验，README 已读）
+
+### auto-edit-workspace：用白话文指挥 AI 剪口播，六个停点人工确认（dean9703111）
+
+**核心提炼**
+- 解决什么问题：口播视频剪辑每步都要人盯——这个工作区让你用白话文跟 AI 说"剪乾淨""做出完成影片"，它就剪掉讲错的地方、上字幕、加资讯卡与情境动画、配音效；每一步都停下来给你看，不满意一句话就能改。
+- 核心用法：1) 放好影片、声音、图片素材，用 Claude Code、Codex、MiniMax Code 或 Cursor 打开工作区；2) 说"剪乾淨"：剪掉讲错重讲、卡住的句子，缩短停顿，照讲稿上字幕，试讲与自言自语预设剪掉；3) 说"做出完成影片"：按每段内容配素材、套模板、加子母画面与音效，人声音量调到一致；4) 六个停点人工确认：剪辑清单、构图、分镜表、完成影片预览、剪辑台、背景预览；5) 规则、模板、音效对照表都是纯文字档，改过的地方下一集照用，风格越剪越像你；6) 转档、转字幕、render 都在本地做，也可输出剪映素材带去剪映继续剪。
+- 什么时候用 / 常见坑：口播、教学、解说类视频批量剪辑时用；繁体中文文档，基于 HyperFrames，需 Node.js 22+、ffmpeg、whisper 等环境（见仓库 setup 手册）；Windows 尚未实测（作者自述），用前先跑范例验证。
+
+**适用场景**：做口播、教学、访谈类视频，想用白话文指挥剪辑、又要保留人工确认的创作者。
+
+**怎么用它搞钱**：接"口播剪辑代工"——按"剪乾淨→成片"打包按条收费；或把调好的规则模板做成客户专属风格包，按月维护。
+
+**来源**：[dean9703111/auto-edit-workspace](https://github.com/dean9703111/auto-edit-workspace) · ⭐67 · MIT · 最近推送 2026-11-22（GitHub API 核验，README 已读）
+
 ## 相关分类
 
 - 总索引：[x-viral-video-skills](https://github.com/kkone1238899/x-viral-video-skills) —— 13 个分类导航
@@ -1370,3 +1475,4 @@
 - 2026-11-10：早档新增 26 条（X 14 条：Claude Code 剪口播十步全流程 / 8 个免费工具搭 Claude 视频栈 / "edit"口令远程剪辑 / UGC 口播广告 4 项耗时 / X 原生 Clip 三帖合并（功能+变现四步+测试八步）/ Voxtral context biasing 字幕转写 / OpusClip 4.0 Recipe 横竖双版 / Claude 剪辑提示词 4 要素 / REA-Video 风格提取 + rea-video 中文详解（@dustADD 验收规则并入）/ faster-whisper 本地字幕实测十步 / Codex 7 Skills 选型 + 亲子绘本变现打法 / 函数逐帧画 MV / 耳机广告声音设计；GitHub 12 个：eva-video-style / auto-edit-video / AIEVv2 / chatgpt-video-editing-skills / video-editing-skill / heditor / vertical-video-editing-skills / video-shotcraft / Concat / OpenCreator / OpenFilm / video-editing-prompts-and-skills；X 帖正文与时间戳经 fxtwitter API 核验，浏览器报告多处与 API 原文不符已按 API 修正；仓库星数与许可经 GitHub API 核验；老条目星数刷新 11 个：FireRed-OpenStoryline 3479→3659、claude-remotion-skill 682→908、akari-video 209→213、ai-video-editing-skill 154→178、AIEV 135→156、oh-my-cassette 120→216、OpenCut 62→66、cutcraft 52→53、open-edits 41→61、favstash 24→62、YouTube-AI-Video-Editing-System 73→132）
 - 2026-11-10：午档新增 9 条（X：OpenMontage 大白话指挥 AI 剪辑 + 爆款反向改编 / WorkBuddy 复刻 Vibe 知识大赏 / zeemo + vizard 多语种配音字幕 + 自然语言自动剪辑（边界）/ 5 套 AI 创作者 Skill（Video Studio 本地剪辑 + Script Coach）/ rea-video 逐镜判实拍 AI + 反推提示词 + 镜对镜复刻 / Opus 5.5 做视频 19 篇长文 9 条共识 / ChatCut + Skill 5–7 分钟 vs CapCut MCP 15 分钟+ / 5 款 AI 剪辑工具按场景选型 / 剪辑接单入门先练一个明确交付（边界）；9 帖正文与时间戳均经 fxtwitter API 核验，浏览器报告多处与 API 原文不符已按 API 修正（@Mulight 的 Daily Post/Hook Master/近 50 条帖子、@ChrisHKAI 提示词五部分标签、@podcastor_ai 积分数未采用）；仓库星数与许可经 GitHub API 核验（OpenMontage ⭐79,214 AGPL-3.0 已迁至 OpenMontageInc、vibe-knowledge-film ⭐1,206 暂无 LICENSE、rea-video ⭐5,813）；另补充早档 X 原生 Clip 条目（@SIAxiom 40 秒精华 + 两条变现路 + 选题眼光壁垒，不另计条）并刷新 rea-video 星数 5,542→5,813；排除：@FinanceYF5 串文 7/ 单条过薄且与 9 条共识重合、@taozi0929 rea-video 同题帖与 @Adeyemo 引用旧长文因重复/早于 09:00 未计）
 - 2026-11-10：晚档新增 20 条（X：AI 音乐 MV 工作流：先做歌再拆视觉最后剪辑卡点 / Opus 5.5 + Fable 5.2 + Lemo-Opuscar 自媒体内容生产系统 / AI 数字人短视频代做 99 元一条 / ChatCut + Codex 两份实测：粗剪快成片贵 / claude-video-editing 剪口播长视频规范 / AI 剪辑两条路线 / Paper Reel 剪纸风科普视频 Skill / Fable 5.2 剪英语短视频 / 同提示词双模型对照：Fable 5.2 vs GPT 6.1 Sol / Opus 5.5 xhigh ultracode + Blender 代码剪辑（边界）/ 11 个免费开源仓库拼成完整视频剪辑流 / Fable 5.2 动态设计专辑 17 个仓库 / Opus 5.5 Max 一人拍 29 分钟黏土风短片（边界）/ Muse 球赛精彩回合智能粗剪 / Nuzky 口播补录按词返工 / Timeline Studio 可编辑节拍模板 / valorant-ai-clip-editor 游戏高光自动剪辑 / lanshu 数字人口播自动化 / Klap API 实测 $1.56 / Claude AI + AudLabs MCP 剪纪录片（边界）；20 帖正文与时间戳均经 fxtwitter API 核验，浏览器报告多处与 API 原文不符已按 API 修正（@hetzerLin 的 Fable/Opus 分工写反与 Style 提示词、@marovole 的 11 仓库清单错写成 17 仓库并添造实测数字、@herozhd77 的"音乐自动卡点 / 20 万 Star"、@7998l201 的 astats 与 scene_utils 命令及"最低分数 8.0"等、@Sponge51522 的"收益与流量再分配"转述、@OkaTakuma1 的"縦型動画のクロップと再配置"）；仓库星数与许可经 GitHub API 核验（lemo-opuscar ⭐14,317 MIT、claude-video-editing ⭐18 MIT、paper-reel ⭐130 MIT、nuzky ⭐24 GPL-3.0、valorant-ai-clip-editor ⭐179 MIT、lanshu ⭐2,943 MIT、ai-video-editor ⭐961 MIT；marovole 11 仓与 0xsoul 17 仓星数逐项核验）；另补充早档 X 原生 Clip 条目（@xiax0603 功能双刃剑拆解 + @Sponge51522 算法 / 生态视角 + @lilimg4614 收益门槛，不另计条）；排除：@forrestbit 家庭短剧（短剧导演漂移）、@Gerry1723625 AutoClip（已在流水线库）与 Toonflow（短剧平台漂移）、@UPing123zzz dsh-media-desk（自媒体工作台漂移）、@lijiankuan DeepSeek Harness 剪视频插件（无方法细节）、@baike888 SeedDance 导演提示词 v5.1（导演类目漂移）、@aiaicreate CapCut 自动化工具（工具名 / 链接未给出））
+- 2026-11-23：早档新增 8 条（X 6 条：18 仓拼 GTA VI 游戏剪辑流水线 / 本地短视频外包半小时批量出 3–5 条 + 包月 1,980 元 / OpenMotion 参考视频逆向复刻转场重建 / wallstreet-explainer 一个选题自动剪出华尔街式财经解说片 / Codex 规划 + WorkBuddy 执行双模型分工 + 踩坑帖 / video-autopilot-kit 剪辑方法论 + 自动化流程 + 质量检查全开源；GitHub 2 个项目：praseesh369/youtube-ai-video-editing-system / dean9703111/auto-edit-workspace；6 帖正文与时间戳均经 fxtwitter API 核验（XuShifu100 踩坑自回复同串直读）；去重：KOF97AI 18 仓与 11-22 晚档导演库 13 仓重合跨库去重、@ohyeahx1 VEED agent 仅功能清单无步骤、@Stanllll6o OpenMontage 库内已有均不重复计；仓库星数与许可经 GitHub API 核验（nexu-io/openmotion ⭐15,338 Apache-2.0、HeyChengC/wallstreet-explainer ⭐832 暂无 LICENSE、Hao0321/video-autopilot-kit ⭐2,350 MIT）；另刷新 OpenMontage 星数 79,214→82,418；浏览器报告 9 条命中时间均与 API 原文一致，无偏差；X 搜索 until 日期过滤不可靠、窗口前半段（11-10–11-21）首屏未见符合标准新帖，存在漏检可能；覆盖至约 09:10，之后新帖不在本次范围；commit：__COMMIT__)
